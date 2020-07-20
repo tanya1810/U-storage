@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 20 Jul 2020 11:40:38 at https://iqonic.design/themes/sofbox/color/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://iqonic.design/themes/sofbox/color/index.html -O1 "C:\My Web Sites\UStorage" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:43:19	Warning: 	File not parsed, looks like binary: https://iqonic.design/themes/sofbox/color/video/01.m4v
+11:43:20	Warning: 	File not parsed, looks like binary: https://iqonic.design/themes/sofbox/color/fonts/fontawesome-webfont.woff2?v=4.7.0
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 42 seconds : 91 links scanned, 90 files written (13115520 bytes overall) [11488214 bytes received at 70914 bytes/sec], 2780836 bytes transferred using HTTP compression in 32 files, ratio 39%, 7.5 requests per connection
+(No errors, 2 warnings, 0 messages)
