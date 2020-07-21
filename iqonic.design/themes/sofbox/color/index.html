@@ -214,10 +214,10 @@
         #book-now .booknow {
             z-index: 999;
             position: fixed;
-            margin: 0px;
+            margin: 0;
             color: #fff;
             position: fixed;
-            bottom: 20px;
+            bottom: 22px;
             right: 25px;
             z-index: 999;
             text-align: center;
@@ -231,7 +231,30 @@
             width: 50%;
         }
 
-
+        .booknow-btn {
+            padding-top: 4px;
+            background-image: -webkit-gradient(linear, left top, right top, from(#6fbcfe), color-stop(51%, #998dff), to(#6fbcfe));
+            background-image: -webkit-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+            background-image: -o-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+            background-image: linear-gradient(to right, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+            background-size: 200% auto;
+            z-index: 2;
+            display: inline-block;
+            -webkit-transition: all 400ms ease-out;
+            -o-transition: all 400ms ease-out;
+            transition: all 400ms ease-out;
+            text-align: center;
+            color: #fff;
+            font-size: 15px;
+            font-weight: bolder;
+            font-family: "Roboto", sans-serif;
+            border: 6px solid rgba(204, 241, 255, 0.5);
+            width: 62px;
+            height: 62px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 90px;
+        }
     </style>
 </head>
 
@@ -372,7 +395,7 @@
                             with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
                             desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                         <h6 class="iq-tw-6 iq-mt-25">Discover our best ever services.</h6>
-                        <a href="javascript:void(0)" class="button iq-mt-10">Click Here</a>
+                        <a href="#how-it-works" class="button iq-mt-10">Click Here</a>
                     </div>
                     <div class="col-lg-6 align-self-center">
                         <img class="iq-works-img"
@@ -736,25 +759,39 @@
                             <h4>Box Storage</h4>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
                                 blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter">Read
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
                                 More</a>
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button> -->
+                                            <h2 class="iq-font-white iq-tw-7" id="exampleModalLongTitle1">
+                                                <small>$</small>29<small>/Month</small></h2>
+                                            <span class="text-uppercase iq-tw-4 iq-font-white">STANDARD</span>
+
+
                                         </div>
                                         <div class="modal-body">
-                                            ...
+                                            <ul>
+                                                <li>100 MB Disk Space</li>
+                                                <li>2 Subdomains</li>
+                                                <li>5 Email Accounts</li>
+                                                <li>
+                                                    <s>Webmail Support</s>
+                                                </li>
+                                                <li>Customer Support 24/7</li>
+                                            </ul>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                            <div class="price-footer">
+                                                <a class="button" href="# ">Purchase</a>
+                                            </div>
+                                            <button type="button" class="button" data-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </div>
@@ -770,25 +807,39 @@
                             <h4>Joint Storage</h4>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
                                 blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter">Read
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter2">Read
                                 More</a>
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
-                                            </button>
+                                            </button> -->
+                                            <h2 class="iq-font-white iq-tw-7" id="exampleModalLongTitle2">
+                                                <small>$</small>29<small>/Month</small></h2>
+                                            <span class="text-uppercase iq-tw-4 iq-font-white">STANDARD</span>
+
+
                                         </div>
                                         <div class="modal-body">
-                                            ...
+                                            <ul>
+                                                <li>100 MB Disk Space</li>
+                                                <li>2 Subdomains</li>
+                                                <li>5 Email Accounts</li>
+                                                <li>
+                                                    <s>Webmail Support</s>
+                                                </li>
+                                                <li>Customer Support 24/7</li>
+                                            </ul>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                            <div class="price-footer">
+                                                <a class="button" href="# ">Purchase</a>
+                                            </div>
+                                            <button type="button" class="button" data-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </div>
@@ -805,14 +856,103 @@
                             <h4>Private Storage</h4>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
                                 blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter">Read
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter3">Read
                                 More</a>
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button> -->
+                                            <h2 class="iq-font-white iq-tw-7" id="exampleModalLongTitle3">
+                                                <small>$</small>29<small>/Month</small></h2>
+                                            <span class="text-uppercase iq-tw-4 iq-font-white">STANDARD</span>
+
+
+                                        </div>
+                                        <div class="modal-body">
+                                            <ul>
+                                                <li>100 MB Disk Space</li>
+                                                <li>2 Subdomains</li>
+                                                <li>5 Email Accounts</li>
+                                                <li>
+                                                    <s>Webmail Support</s>
+                                                </li>
+                                                <li>Customer Support 24/7</li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="price-footer">
+                                                <a class="button" href="# ">Purchase</a>
+                                            </div>
+                                            <button type="button" class="button" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="more_btn" href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Storage Section =================-->
+
+
+        <!-- USP Section -->
+        <section id="usps" class="overview-block-ptb it-works">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="iq-objects">
+                            <!--<span class="iq-objects-02" data-bottom="transform:translatey(50px)"
+                                data-top="transform:translatey(-100px);">
+                                <img src="images/drive/04.png" alt="drive02">
+                            </span>
+                            <span class="iq-objects-03" data-bottom="transform:translatex(50px)"
+                                data-top="transform:translatex(-100px);">
+                                <img src="images/drive/03.png" alt="drive02">
+                            </span> -->
+                            <span class="iq-objects-04 iq-fadebounce">
+                                <span class="iq-round"></span>
+                            </span>
+                        </div>
+                        <div class="iq-objects-software">
+                            <span class="iq-objects-01" data-bottom="transform:translatey(50px)"
+                                data-top="transform:translatey(-100px);">
+                                <img src="images/drive/03.png" alt="drive02">
+                            </span>
+                        </div>
+                        <div class="heading-title">
+                            <h1 class="iq-tw-6 iq-mb-25">What makes us <br><span
+                                    style="color: #4ac4f3; font-weight: bolder;">UNIQUE</span>?</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley,</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="iq-works-box text-left">
+                            <div class="step">1</div>
+                            <div class="icon-bg text-center img-fluid-center">
+                                <img src="images/services/alarm.png" class="img-fluid" alt="#">
+                            </div>
+                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We Pack and Pick</h5>
+                            <p style="text-align: justified;">Call us over. We will Pack and Pick things from your
+                                place.</p>
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
+                                More</a>
+                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                            <h5 class="modal-title" id="exampleModalLongTitle1">Modal title</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
@@ -828,18 +968,83 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="more_btn" href="#">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4 r-mt-30">
+                        <div class="iq-works-box text-left">
+                            <div class="step">2</div>
+                            <div class="icon-bg text-center img-fluid-center">
+                                <img src="images/services/money.png" class="img-fluid" alt="#">
+                            </div>
+                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We Transport</h5>
+                            <p style="text-align: justified;">We take your things safely to our secured facilities.</p>
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
+                                More</a>
+                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle1">Modal title</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4 r-mt-30">
+                        <div class="iq-works-box text-left">
+                            <div class="step">3</div>
+                            <div class="icon-bg text-center img-fluid-center">
+                                <img src="images/services/wardrobe.png" class="img-fluid" alt="#"></div>
+                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We keep it Safe</h5>
+                            <p style="text-align: justified;">Your things are stored in our world class facilities and
+                                returned when you need them.</p>
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
+                                More</a>
+                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle1">Modal title</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--================End Storage Section =================-->
+        <!-- USP Section END -->
 
 
 
         <!-- USP Section -->
-        <section id="usps" class="overview-block-ptb iq-mt-50 software">
+        <!-- <section id="usps" class="overview-block-ptb iq-mt-50 software">
             <div class="iq-software-demo">
                 <img class="img-fluid" src="https://www.webfx.com/10x-template/assets/compressed-img/banner-webcost.png"
                     alt="drive05">
@@ -890,13 +1095,13 @@
                     <span class="iq-round"></span>
                 </span>
             </div>
-        </section>
+        </section> -->
         <!-- USP Section END -->
         <hr>
 
         <!--================End Banner Area =================-->
         <!-- Accreditation Section -->
-        <section id="accreditation" class="service_feature">
+        <section id="accreditation" class="service_feature grey-bg">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -917,14 +1122,14 @@
                             <h4>Box Storage</h4>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
                                 blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter">Read
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
                                 More</a>
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                            <h5 class="modal-title" id="exampleModalLongTitle1">Modal title</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
@@ -950,14 +1155,14 @@
                             <h4>Joint Storage</h4>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
                                 blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter">Read
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter2">Read
                                 More</a>
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                            <h5 class="modal-title" id="exampleModalLongTitle2">Modal title</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
@@ -983,14 +1188,14 @@
                             <h4>Private Storage</h4>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
                                 blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter">Read
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter3">Read
                                 More</a>
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                            <h5 class="modal-title" id="exampleModalLongTitle3">Modal title</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
@@ -1039,8 +1244,8 @@
                                 <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
                                 </p>
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal"
-                                    style="text-align: center;">Read More</button>
+                                <button type="button" class="btn btn-info" data-toggle="modal"
+                                    data-target="#myModal">Read More</button>
 
                                 <!-- Modal -->
                                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -1086,7 +1291,7 @@
 
                                 <!-- Modal -->
                                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
@@ -1123,11 +1328,11 @@
                                 </p>
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal">Read More</button>
+                                    data-target="#myModal3">Read More</button>
 
                                 <!-- Modal -->
                                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    aria-labelledby="exampleModalCenterTitl" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
@@ -1165,7 +1370,7 @@
                                 </p>
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal">Read More</button>
+                                    data-target="#myModal4">Read More</button>
 
                                 <!-- Modal -->
                                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -1206,7 +1411,7 @@
                                 </p>
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal">Read More</button>
+                                    data-target="#myModal5">Read More</button>
 
                                 <!-- Modal -->
                                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -1248,7 +1453,7 @@
                                 </p>
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal">Read More</button>
+                                    data-target="#myModal6">Read More</button>
 
                                 <!-- Modal -->
                                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -1441,11 +1646,58 @@
     </footer>
     <!-- Footer END -->
     <!-- back-to-top -->
+    <!-- <div id="back-to-top">
+        <a class="top" id="top" href="#top"> <i class="ion-ios-upload-outline"></i> </a>
+    </div> -->
+    <style>
+        .booknow {
+            padding-left: 0.2rem;
+            padding-top: 0.4rem;
+            padding-right: 0.1rem;
+            color: rgba(0, 0, 0, 0.3);
+            font-size: 10px;
+            overflow: hidden;
+        }
+
+        /* Hover State */
+
+        .booknow:hover {
+            padding-left: 0;
+            padding-top: 0;
+            color: #f0f0f0;
+            width: 150px;
+            background-image: -webkit-gradient(linear, left top, right top, from(#6fbcfe), color-stop(51%, #998dff), to(#6fbcfe));
+            background-image: -webkit-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+            background-image: -o-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+            background-image: linear-gradient(to right, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+
+        }
+
+        .booknow span:hover {
+            -webkit-transform: translateY(-200%);
+            -moz-transform: translateY(-200%);
+            transform: translateY(-200%);
+        }
+
+
+        .make-visible-booknow {
+            padding-top: -2px !important;
+            opacity: 0 !important;
+        }
+
+        .booknow:hover .make-visible-booknow {
+            font-size: 15px;
+            opacity: 1 !important;
+        }
+    </style>
+
     <div id="back-to-top">
         <a class="top" id="top" href="#top"> <i class="ion-ios-upload-outline"></i> </a>
     </div>
     <div id="book-now">
-        <a class="more_btn booknow" class="ion-ios-upload-outline" href="#">Book Now</a>
+        <a class="booknow booknow-btn" class="ion-ios-upload-outline" href="#"><span data-hover="Book Now"><i
+                    class="calender fas fa-calendar-check fa-3x"></i><span class="make-visible-booknow"> Book
+                    Now</span></span></a>
     </div>
     <!-- back-to-top End -->
 
@@ -1464,6 +1716,7 @@
     <script src="js/custom.js"></script>
     <!-- Style Customizer -->
     <script src="js/style-customizer.js"></script>
+
 </body>
 
 <!-- Mirrored from iqonic.design/themes/sofbox/color/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jul 2020 06:12:46 GMT -->
