@@ -171,7 +171,7 @@
 
 
         .more_btn {
-            padding: 0px 35px;
+            padding: 0 15px;
             background-image: -webkit-gradient(linear, left top, right top, from(#6fbcfe), color-stop(51%, #998dff), to(#6fbcfe));
             background-image: -webkit-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
             background-image: -o-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
@@ -185,6 +185,7 @@
             text-align: center;
             color: #fff;
             font-size: 15px;
+            font-weight: bolder;
             font-family: "Roboto", sans-serif;
             line-height: 55px;
             border: 6px solid rgba(204, 241, 255, 0.5);
@@ -194,6 +195,65 @@
         .more_btn:hover {
             background-position: right center;
             color: #fff;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .respbtn {
+                font-size: 38px !important;
+                font-weight: bolder !important;
+            }
+        }
+
+        @media only screen and (max-width: 350px) {
+            .respbtn {
+                font-size: 32px !important;
+                font-weight: bolder !important;
+            }
+        }
+
+        #book-now .booknow {
+            z-index: 999;
+            position: fixed;
+            margin: 0;
+            color: #fff;
+            position: fixed;
+            bottom: 22px;
+            right: 25px;
+            z-index: 999;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .img-fluid-center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        .booknow-btn {
+            padding-top: 4px;
+            background-image: -webkit-gradient(linear, left top, right top, from(#6fbcfe), color-stop(51%, #998dff), to(#6fbcfe));
+            background-image: -webkit-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+            background-image: -o-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+            background-image: linear-gradient(to right, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+            background-size: 200% auto;
+            z-index: 2;
+            display: inline-block;
+            -webkit-transition: all 400ms ease-out;
+            -o-transition: all 400ms ease-out;
+            transition: all 400ms ease-out;
+            text-align: center;
+            color: #fff;
+            font-size: 15px;
+            font-weight: bolder;
+            font-family: "Roboto", sans-serif;
+            border: 6px solid rgba(204, 241, 255, 0.5);
+            width: 62px;
+            height: 62px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 90px;
         }
     </style>
 </head>
@@ -335,11 +395,12 @@
                             with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
                             desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                         <h6 class="iq-tw-6 iq-mt-25">Discover our best ever services.</h6>
-                        <a href="javascript:void(0)" class="button iq-mt-10">Click Here</a>
+                        <a href="#how-it-works" class="button iq-mt-10">Click Here</a>
                     </div>
                     <div class="col-lg-6 align-self-center">
                         <img class="iq-works-img"
-                            src="https://assets-global.website-files.com/5bcb46130508ef456a7b2930/5ec3661f9156a45cfdd1c2f0_wfh-drawkit-thumbnail.png" alt="drive01">
+                            src="https://assets-global.website-files.com/5bcb46130508ef456a7b2930/5ec3661f9156a45cfdd1c2f0_wfh-drawkit-thumbnail.png"
+                            alt="drive01">
                     </div>
                 </div>
             </div>
@@ -395,7 +456,7 @@
                     <div class="col-md-12 col-lg-4">
                         <div class="iq-works-box text-left">
                             <div class="step">1</div>
-                            <div class="icon-bg text-center">
+                            <div class="icon-bg text-center img-fluid-center">
                                 <img src="images/services/interior-design.png" class="img-fluid" alt="#">
                             </div>
                             <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We Pack and Pick</h5>
@@ -406,7 +467,7 @@
                     <div class="col-md-12 col-lg-4 r-mt-30">
                         <div class="iq-works-box text-left">
                             <div class="step">2</div>
-                            <div class="icon-bg text-center">
+                            <div class="icon-bg text-center img-fluid-center">
                                 <img src="images/services/truck.png" class="img-fluid" alt="#">
                             </div>
                             <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We Transport</h5>
@@ -416,7 +477,7 @@
                     <div class="col-md-12 col-lg-4 r-mt-30">
                         <div class="iq-works-box text-left">
                             <div class="step">3</div>
-                            <div class="icon-bg text-center">
+                            <div class="icon-bg text-center img-fluid-center">
                                 <img src="images/services/icons8-home-100.png" class="img-fluid" alt="#"></div>
                             <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We keep it Safe</h5>
                             <p style="text-align: justified;">Your things are stored in our world class facilities and
@@ -453,8 +514,8 @@
 
                             </div>
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-info" data-toggle="modal"
-                                data-target="#myModal">Read More</button>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Read
+                                More</button>
 
                             <!-- Modal -->
                             <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -490,8 +551,8 @@
                                 <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
                                 </p>
                             </div>
-                            <button type="button" class="btn btn-info" data-toggle="modal"
-                                data-target="#myModal">Read More</button>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Read
+                                More</button>
 
                             <!-- Modal -->
                             <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -527,8 +588,8 @@
                                 <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
                                 </p>
                             </div>
-                            <button type="button" class="btn btn-info" data-toggle="modal"
-                                data-target="#myModal">Read More</button>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Read
+                                More</button>
 
                             <!-- Modal -->
                             <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -565,8 +626,8 @@
                                 <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
                                 </p>
                             </div>
-                            <button type="button" class="btn btn-info" data-toggle="modal"
-                                data-target="#myModal">Read More</button>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Read
+                                More</button>
 
                             <!-- Modal -->
                             <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -602,8 +663,8 @@
                                 <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
                                 </p>
                             </div>
-                            <button type="button" class="btn btn-info" data-toggle="modal"
-                                data-target="#myModal">Read More</button>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Read
+                                More</button>
 
                             <!-- Modal -->
                             <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -639,8 +700,8 @@
                                 <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
                                 </p>
                             </div>
-                            <button type="button" class="btn btn-info" data-toggle="modal"
-                                data-target="#myModal">Read More</button>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Read
+                                More</button>
 
                             <!-- Modal -->
                             <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -698,25 +759,39 @@
                             <h4>Box Storage</h4>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
                                 blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter">Read
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
                                 More</a>
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button> -->
+                                            <h2 class="iq-font-white iq-tw-7" id="exampleModalLongTitle1">
+                                                <small>$</small>29<small>/Month</small></h2>
+                                            <span class="text-uppercase iq-tw-4 iq-font-white">STANDARD</span>
+
+
                                         </div>
                                         <div class="modal-body">
-                                            ...
+                                            <ul>
+                                                <li>100 MB Disk Space</li>
+                                                <li>2 Subdomains</li>
+                                                <li>5 Email Accounts</li>
+                                                <li>
+                                                    <s>Webmail Support</s>
+                                                </li>
+                                                <li>Customer Support 24/7</li>
+                                            </ul>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                            <div class="price-footer">
+                                                <a class="button" href="# ">Purchase</a>
+                                            </div>
+                                            <button type="button" class="button" data-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </div>
@@ -732,25 +807,39 @@
                             <h4>Joint Storage</h4>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
                                 blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter">Read
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter2">Read
                                 More</a>
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
-                                            </button>
+                                            </button> -->
+                                            <h2 class="iq-font-white iq-tw-7" id="exampleModalLongTitle2">
+                                                <small>$</small>29<small>/Month</small></h2>
+                                            <span class="text-uppercase iq-tw-4 iq-font-white">STANDARD</span>
+
+
                                         </div>
                                         <div class="modal-body">
-                                            ...
+                                            <ul>
+                                                <li>100 MB Disk Space</li>
+                                                <li>2 Subdomains</li>
+                                                <li>5 Email Accounts</li>
+                                                <li>
+                                                    <s>Webmail Support</s>
+                                                </li>
+                                                <li>Customer Support 24/7</li>
+                                            </ul>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                            <div class="price-footer">
+                                                <a class="button" href="# ">Purchase</a>
+                                            </div>
+                                            <button type="button" class="button" data-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </div>
@@ -767,14 +856,103 @@
                             <h4>Private Storage</h4>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
                                 blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter">Read
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter3">Read
                                 More</a>
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button> -->
+                                            <h2 class="iq-font-white iq-tw-7" id="exampleModalLongTitle3">
+                                                <small>$</small>29<small>/Month</small></h2>
+                                            <span class="text-uppercase iq-tw-4 iq-font-white">STANDARD</span>
+
+
+                                        </div>
+                                        <div class="modal-body">
+                                            <ul>
+                                                <li>100 MB Disk Space</li>
+                                                <li>2 Subdomains</li>
+                                                <li>5 Email Accounts</li>
+                                                <li>
+                                                    <s>Webmail Support</s>
+                                                </li>
+                                                <li>Customer Support 24/7</li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="price-footer">
+                                                <a class="button" href="# ">Purchase</a>
+                                            </div>
+                                            <button type="button" class="button" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="more_btn" href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Storage Section =================-->
+
+
+        <!-- USP Section -->
+        <section id="usps" class="overview-block-ptb it-works">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="iq-objects">
+                            <!--<span class="iq-objects-02" data-bottom="transform:translatey(50px)"
+                                data-top="transform:translatey(-100px);">
+                                <img src="images/drive/04.png" alt="drive02">
+                            </span>
+                            <span class="iq-objects-03" data-bottom="transform:translatex(50px)"
+                                data-top="transform:translatex(-100px);">
+                                <img src="images/drive/03.png" alt="drive02">
+                            </span> -->
+                            <span class="iq-objects-04 iq-fadebounce">
+                                <span class="iq-round"></span>
+                            </span>
+                        </div>
+                        <div class="iq-objects-software">
+                            <span class="iq-objects-01" data-bottom="transform:translatey(50px)"
+                                data-top="transform:translatey(-100px);">
+                                <img src="images/drive/03.png" alt="drive02">
+                            </span>
+                        </div>
+                        <div class="heading-title">
+                            <h1 class="iq-tw-6 iq-mb-25">What makes us <br><span
+                                    style="color: #4ac4f3; font-weight: bolder;">UNIQUE</span>?</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley,</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="iq-works-box text-left">
+                            <div class="step">1</div>
+                            <div class="icon-bg text-center img-fluid-center">
+                                <img src="images/services/alarm.png" class="img-fluid" alt="#">
+                            </div>
+                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We Pack and Pick</h5>
+                            <p style="text-align: justified;">Call us over. We will Pack and Pick things from your
+                                place.</p>
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
+                                More</a>
+                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                            <h5 class="modal-title" id="exampleModalLongTitle1">Modal title</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
@@ -790,18 +968,83 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="more_btn" href="#">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4 r-mt-30">
+                        <div class="iq-works-box text-left">
+                            <div class="step">2</div>
+                            <div class="icon-bg text-center img-fluid-center">
+                                <img src="images/services/money.png" class="img-fluid" alt="#">
+                            </div>
+                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We Transport</h5>
+                            <p style="text-align: justified;">We take your things safely to our secured facilities.</p>
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
+                                More</a>
+                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle1">Modal title</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4 r-mt-30">
+                        <div class="iq-works-box text-left">
+                            <div class="step">3</div>
+                            <div class="icon-bg text-center img-fluid-center">
+                                <img src="images/services/wardrobe.png" class="img-fluid" alt="#"></div>
+                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We keep it Safe</h5>
+                            <p style="text-align: justified;">Your things are stored in our world class facilities and
+                                returned when you need them.</p>
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
+                                More</a>
+                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle1">Modal title</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--================End Storage Section =================-->
+        <!-- USP Section END -->
 
 
 
         <!-- USP Section -->
-        <section id="usps" class="overview-block-ptb iq-mt-50 software">
+        <!-- <section id="usps" class="overview-block-ptb iq-mt-50 software">
             <div class="iq-software-demo">
                 <img class="img-fluid" src="https://www.webfx.com/10x-template/assets/compressed-img/banner-webcost.png"
                     alt="drive05">
@@ -852,22 +1095,18 @@
                     <span class="iq-round"></span>
                 </span>
             </div>
-        </section>
+        </section> -->
         <!-- USP Section END -->
         <hr>
 
-        
-
-
-
         <!--================End Banner Area =================-->
         <!-- Accreditation Section -->
-        <section id="accreditation" class="service_feature">
+        <section id="accreditation" class="service_feature grey-bg">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="heading-title">
-                            <h2 class="title iq-tw-7"><b>Accreditations</b></h2>
+                            <h1 class="title iq-tw-7 respbtn"><b>Accreditations</b></h1>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has been the industry's standard dummy text ever since the 1500s, when an unknown
                                 printer took a galley,</p>
@@ -883,14 +1122,14 @@
                             <h4>Box Storage</h4>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
                                 blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter">Read
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
                                 More</a>
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                            <h5 class="modal-title" id="exampleModalLongTitle1">Modal title</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
@@ -916,14 +1155,14 @@
                             <h4>Joint Storage</h4>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
                                 blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter">Read
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter2">Read
                                 More</a>
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                            <h5 class="modal-title" id="exampleModalLongTitle2">Modal title</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
@@ -949,14 +1188,14 @@
                             <h4>Private Storage</h4>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
                                 blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter">Read
+                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter3">Read
                                 More</a>
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                            <h5 class="modal-title" id="exampleModalLongTitle3">Modal title</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
@@ -1006,7 +1245,7 @@
                                 </p>
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal" style="text-align: center;">Read More</button>
+                                    data-target="#myModal">Read More</button>
 
                                 <!-- Modal -->
                                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -1052,7 +1291,7 @@
 
                                 <!-- Modal -->
                                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
@@ -1089,11 +1328,11 @@
                                 </p>
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal">Read More</button>
+                                    data-target="#myModal3">Read More</button>
 
                                 <!-- Modal -->
                                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    aria-labelledby="exampleModalCenterTitl" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
@@ -1131,7 +1370,7 @@
                                 </p>
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal">Read More</button>
+                                    data-target="#myModal4">Read More</button>
 
                                 <!-- Modal -->
                                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -1172,7 +1411,7 @@
                                 </p>
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal">Read More</button>
+                                    data-target="#myModal5">Read More</button>
 
                                 <!-- Modal -->
                                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -1214,7 +1453,7 @@
                                 </p>
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal">Read More</button>
+                                    data-target="#myModal6">Read More</button>
 
                                 <!-- Modal -->
                                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -1249,298 +1488,77 @@
 
 
         <!-- Testimonials -->
-        <section id="testimonials" class="overview-block-ptb grey-bg iq-blog">
+        <section id="testimonials" class="overview-block-ptb grey-bg iq-loved-customers">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="heading-title">
-                            <h2 class="title iq-tw-7"><b>Testimonials</b></h2>
-                            <p></p>
+                        <div class="heading-title iq-mt-50">
+                            <h1 class="title iq-tw-7 respbtn"><b>Testimonials</b></h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley,</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="owl-carousel" data-autoplay="false" data-loop="true" data-nav="false"
-                            data-dots="true" data-items="3" data-items-laptop="3" data-items-tab="2"
-                            data-items-mobile="2" data-items-mobile-sm="1" data-margin="30">
+                        <div class="owl-carousel" data-autoplay="true" data-loop="true" data-nav="true"
+                            data-dots="false" data-items="3" data-items-laptop="3" data-items-tab="2"
+                            data-items-mobile="1" data-items-mobile-sm="1" data-margin="30">
                             <div class="item">
-                                <div class="iq-blog-box">
-                                    <div class="iq-blog-image clearfix">
-                                        <div class="media-wrapper">
-                                            <video style="width:100%;height:100%;" id="player1" poster="video/01.jpg"
-                                                controls preload="none">
-                                                <source type="video/m4v" src="video/01.html" />
-                                                <source type="video/webm" src="video/01.webm" />
-                                                <source type="video/ogg" src="video/01.ogv" />
-                                            </video>
-                                        </div>
+                                <div class="iq-client white-bg">
+                                    <div class="client-img">
+                                        <a href="https://www.youtube.com/watch?v=4H5dtevdkEY" ; target="_blank" ;
+                                            autostart="false">
+                                            <img alt="#" class="img-fluid rounded-circle"
+                                                src="images/testimonial/01.jpg">
+                                        </a>
                                     </div>
-                                    <div class="iq-blog-detail">
-                                        <div class="blog-title"> <a href="blog-single.html">
-                                                <h5 class="iq-tw-6 iq-mb-10">Blogpost With HTML Video</h5>
-                                            </a> </div>
-                                        <div class="blog-content">
-                                            <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor
-                                                sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
+                                    <div class="client-info">
+                                        <div class="client-name iq-mb-10">
+                                            <h5 class="iq-tw-6">Jason Adams</h5>
+                                            <span class="sub-title iq-tw-6">CEO, Sofbox</span>
                                         </div>
-                                        <div class="iq-blog-meta">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-user-circle" aria-hidden="true"></i> Tom
-                                                        Herry</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-calendar" aria-hidden="true"></i> 12 Aug
-                                                        2017</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                                            </ul>
-                                        </div>
+                                        <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor coli incididunt ut labore.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="iq-blog-box">
-                                    <div class="iq-blog-image clearfix">
-                                        <div class="media-wrapper">
-                                            <video style="width:100%;height:100%;" id="player1" poster="video/01.jpg"
-                                                controls preload="none">
-                                                <source type="video/m4v" src="video/01.html" />
-                                                <source type="video/webm" src="video/01.webm" />
-                                                <source type="video/ogg" src="video/01.ogv" />
-                                            </video>
-                                        </div>
+                                <div class="iq-client white-bg">
+                                    <div class="client-img">
+                                        <a href="https://www.youtube.com/watch?v=4H5dtevdkEY" ; target="_blank" ;
+                                            autostart="false">
+                                            <img alt="#" class="img-fluid rounded-circle"
+                                                src="images/testimonial/02.jpg">
+                                        </a>
                                     </div>
-                                    <div class="iq-blog-detail">
-                                        <div class="blog-title"> <a href="blog-single.html">
-                                                <h5 class="iq-tw-6 iq-mb-10">Blogpost With HTML Video</h5>
-                                            </a> </div>
-                                        <div class="blog-content">
-                                            <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor
-                                                sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
+                                    <div class="client-info">
+                                        <div class="client-name iq-mb-10">
+                                            <h5 class="iq-tw-6">Jenny Adams</h5>
+                                            <span class="sub-title iq-tw-6">CEO, Sofbox</span>
                                         </div>
-                                        <div class="iq-blog-meta">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-user-circle" aria-hidden="true"></i> Tom
-                                                        Herry</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-calendar" aria-hidden="true"></i> 12 Aug
-                                                        2017</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                                            </ul>
-                                        </div>
+                                        <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor coli incididunt ut labore.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="iq-blog-box">
-                                    <div class="iq-blog-image clearfix">
-                                        <div class="media-wrapper">
-                                            <video style="width:100%;height:100%;" id="player1" poster="video/01.jpg"
-                                                controls preload="none">
-                                                <source type="video/m4v" src="video/01.html" />
-                                                <source type="video/webm" src="video/01.webm" />
-                                                <source type="video/ogg" src="video/01.ogv" />
-                                            </video>
-                                        </div>
+                                <div class="iq-client white-bg">
+                                    <div class="client-img">
+                                        <a href="https://www.youtube.com/watch?v=4H5dtevdkEY" ; target="_blank" ;
+                                            autostart="false">
+                                            <img alt="#" class="img-fluid rounded-circle"
+                                                src="images/testimonial/03.jpg">
+                                        </a>
                                     </div>
-                                    <div class="iq-blog-detail">
-                                        <div class="blog-title"> <a href="blog-single.html">
-                                                <h5 class="iq-tw-6 iq-mb-10">Blogpost With HTML Video</h5>
-                                            </a> </div>
-                                        <div class="blog-content">
-                                            <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor
-                                                sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
+                                    <div class="client-info">
+                                        <div class="client-name iq-mb-10">
+                                            <h5 class="iq-tw-6">John Deo</h5>
+                                            <span class="sub-title iq-tw-6">CEO, Sofbox</span>
                                         </div>
-                                        <div class="iq-blog-meta">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-user-circle" aria-hidden="true"></i> Tom
-                                                        Herry</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-calendar" aria-hidden="true"></i> 12 Aug
-                                                        2017</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="iq-blog-box">
-                                    <div class="iq-blog-image clearfix">
-                                        <div class="media-wrapper">
-                                            <video style="width:100%;height:100%;" id="player1" poster="video/01.jpg"
-                                                controls preload="none">
-                                                <source type="video/m4v" src="video/01.html" />
-                                                <source type="video/webm" src="video/01.webm" />
-                                                <source type="video/ogg" src="video/01.ogv" />
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="iq-blog-detail">
-                                        <div class="blog-title"> <a href="blog-single.html">
-                                                <h5 class="iq-tw-6 iq-mb-10">Blogpost With HTML Video</h5>
-                                            </a> </div>
-                                        <div class="blog-content">
-                                            <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor
-                                                sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
-                                        </div>
-                                        <div class="iq-blog-meta">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-user-circle" aria-hidden="true"></i> Tom
-                                                        Herry</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-calendar" aria-hidden="true"></i> 12 Aug
-                                                        2017</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="iq-blog-box">
-                                    <div class="iq-blog-image clearfix">
-                                        <div class="media-wrapper">
-                                            <video style="width:100%;height:100%;" id="player1" poster="video/01.jpg"
-                                                controls preload="none">
-                                                <source type="video/m4v" src="video/01.html" />
-                                                <source type="video/webm" src="video/01.webm" />
-                                                <source type="video/ogg" src="video/01.ogv" />
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="iq-blog-detail">
-                                        <div class="blog-title"> <a href="blog-single.html">
-                                                <h5 class="iq-tw-6 iq-mb-10">Blogpost With HTML Video</h5>
-                                            </a> </div>
-                                        <div class="blog-content">
-                                            <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor
-                                                sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
-                                        </div>
-                                        <div class="iq-blog-meta">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-user-circle" aria-hidden="true"></i> Tom
-                                                        Herry</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-calendar" aria-hidden="true"></i> 12 Aug
-                                                        2017</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="iq-blog-box">
-                                    <div class="iq-blog-image clearfix">
-                                        <div class="media-wrapper">
-                                            <video style="width:100%;height:100%;" id="player1" poster="video/01.jpg"
-                                                controls preload="none">
-                                                <source type="video/m4v" src="video/01.html" />
-                                                <source type="video/webm" src="video/01.webm" />
-                                                <source type="video/ogg" src="video/01.ogv" />
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="iq-blog-detail">
-                                        <div class="blog-title"> <a href="blog-single.html">
-                                                <h5 class="iq-tw-6 iq-mb-10">Blogpost With HTML Video</h5>
-                                            </a> </div>
-                                        <div class="blog-content">
-                                            <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor
-                                                sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
-                                        </div>
-                                        <div class="iq-blog-meta">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-user-circle" aria-hidden="true"></i> Tom
-                                                        Herry</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-calendar" aria-hidden="true"></i> 12 Aug
-                                                        2017</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="iq-blog-box">
-                                    <div class="iq-blog-image clearfix">
-                                        <div class="media-wrapper">
-                                            <video style="width:100%;height:100%;" id="player1" poster="video/01.jpg"
-                                                controls preload="none">
-                                                <source type="video/m4v" src="video/01.html" />
-                                                <source type="video/webm" src="video/01.webm" />
-                                                <source type="video/ogg" src="video/01.ogv" />
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="iq-blog-detail">
-                                        <div class="blog-title"> <a href="blog-single.html">
-                                                <h5 class="iq-tw-6 iq-mb-10">Blogpost With HTML Video</h5>
-                                            </a> </div>
-                                        <div class="blog-content">
-                                            <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor
-                                                sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
-                                        </div>
-                                        <div class="iq-blog-meta">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-user-circle" aria-hidden="true"></i> Tom
-                                                        Herry</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-calendar" aria-hidden="true"></i> 12 Aug
-                                                        2017</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="iq-blog-box">
-                                    <div class="iq-blog-image clearfix">
-                                        <div class="media-wrapper">
-                                            <video style="width:100%;height:100%;" id="player1" poster="video/01.jpg"
-                                                controls preload="none">
-                                                <source type="video/m4v" src="video/01.html" />
-                                                <source type="video/webm" src="video/01.webm" />
-                                                <source type="video/ogg" src="video/01.ogv" />
-                                            </video>
-                                        </div>
-                                    </div>
-                                    <div class="iq-blog-detail">
-                                        <div class="blog-title"> <a href="blog-single.html">
-                                                <h5 class="iq-tw-6 iq-mb-10">Blogpost With HTML Video</h5>
-                                            </a> </div>
-                                        <div class="blog-content">
-                                            <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor
-                                                sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
-                                        </div>
-                                        <div class="iq-blog-meta">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-user-circle" aria-hidden="true"></i> Tom
-                                                        Herry</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-calendar" aria-hidden="true"></i> 12 Aug
-                                                        2017</a></li>
-                                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                                            class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                                            </ul>
-                                        </div>
+                                        <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor coli incididunt ut labore.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1560,54 +1578,7 @@
     <footer>
 
         <!-- Footer Info -->
-        <section id="contact-us" class="footer-info white-bg">
-            <div class="container">
-                <div class="row justify-content-end">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="iq-get-in">
-                            <h4 class="iq-tw-7 iq-mb-20">Get in Touch</h4>
-                            <form id="contact" method="post">
-                                <div class="contact-form">
-                                    <div class="section-field">
-                                        <input class="require" id="contact_name" type="text" placeholder="Name*"
-                                            name="name">
-                                    </div>
-                                    <div class="section-field">
-                                        <input class="require" id="contact_email" type="email" placeholder="Email*"
-                                            name="email">
-                                    </div>
-                                    <div class="section-field">
-                                        <input class="require" id="contact_phone" type="text" placeholder="Phone*"
-                                            name="phone">
-                                    </div>
-                                    <div class="section-field textarea">
-                                        <textarea id="contact_message" class="input-message require"
-                                            placeholder="Comment*" rows="5" name="message"></textarea>
-                                    </div>
-                                    <div class="section-field iq-mt-20">
-                                        <div class="g-recaptcha"
-                                            data-sitekey="6LdA3mYUAAAAANpUuZTLbKM_s23tTHlcdJ7dYfgI"></div>
-                                    </div>
-                                    <button id="submit" name="submit" type="submit" value="Send"
-                                        class="button iq-mt-15">Send Message</button>
-                                    <div class="alert alert-success alert-dismissible fade show" role="alert"
-                                        id="success">
-                                        <strong>Thank You, Your message has been received.</strong>.
-                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <iframe class="map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.840108181602!2d144.95373631539215!3d-37.8172139797516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1497005461921"
-                style="border:0" allowfullscreen></iframe>
-        </section>
-        <section class="footer-info iq-pt-60">
+        <section id="contact-us" class="footer-info iq-pt-60">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-lg-3">
@@ -1675,37 +1646,62 @@
     </footer>
     <!-- Footer END -->
     <!-- back-to-top -->
+    <!-- <div id="back-to-top">
+        <a class="top" id="top" href="#top"> <i class="ion-ios-upload-outline"></i> </a>
+    </div> -->
+    <style>
+        .booknow {
+            padding-left: 0.2rem;
+            padding-top: 0.4rem;
+            padding-right: 0.1rem;
+            color: rgba(0, 0, 0, 0.3);
+            font-size: 10px;
+            overflow: hidden;
+        }
+
+        /* Hover State */
+
+        .booknow:hover {
+            padding-left: 0;
+            padding-top: 0;
+            color: #f0f0f0;
+            width: 150px;
+            background-image: -webkit-gradient(linear, left top, right top, from(#6fbcfe), color-stop(51%, #998dff), to(#6fbcfe));
+            background-image: -webkit-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+            background-image: -o-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+            background-image: linear-gradient(to right, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+
+        }
+
+        .booknow span:hover {
+            -webkit-transform: translateY(-200%);
+            -moz-transform: translateY(-200%);
+            transform: translateY(-200%);
+        }
+
+
+        .make-visible-booknow {
+            padding-top: -2px !important;
+            opacity: 0 !important;
+        }
+
+        .booknow:hover .make-visible-booknow {
+            font-size: 15px;
+            opacity: 1 !important;
+        }
+    </style>
+
     <div id="back-to-top">
         <a class="top" id="top" href="#top"> <i class="ion-ios-upload-outline"></i> </a>
     </div>
+    <div id="book-now">
+        <a class="booknow booknow-btn" class="ion-ios-upload-outline" href="#"><span data-hover="Book Now"><i
+                    class="calender fas fa-calendar-check fa-3x"></i><span class="make-visible-booknow"> Book
+                    Now</span></span></a>
+    </div>
     <!-- back-to-top End -->
-    <!-- style-customizer -->
-    <!-- <div class="iq-customizer closed">
-        <div class="buy-button"> <a class="opener" href="javascript:void(0)"><i class="fa fa-spinner fa-spin"></i></a>
-        </div>
-        <div class="clearfix content-chooser">
-            <h3 class="iq-font-black">Sofbox Awesome Color</h3>
-            <p>This color combo available inside whole template. You can change on your wish, Even you can create your
-                own with limitless possibilities! </p>
-            <ul class="iq-colorChange clearfix">
-                <li class="color-1 selected" data-style="color-1"></li>
-                <li class="color-2" data-style="color-2"></li>
-                <li class="color-3" data-style="color-3"></li>
-                <li class="color-4" data-style="color-4"></li>
-                <li class="color-5" data-style="color-5"></li>
-                <li class="color-6" data-style="color-6"></li>
-                <li class="color-7" data-style="color-7"></li>
-                <li class="color-8" data-style="color-8"></li>
-                <li class="color-9" data-style="color-9"></li>
-                <li class="color-10" data-style="color-10"></li>
-                <li class="color-11" data-style="color-11"></li>
-                <li class="color-12" data-style="color-12"></li>
-                <li class="color-13" data-style="color-13"></li>
-                <li class="color-14" data-style="color-14"></li>
-            </ul>
-        </div>
-    </div> -->
-    <!-- style-customizer END -->
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.min.js"></script>
@@ -1720,6 +1716,7 @@
     <script src="js/custom.js"></script>
     <!-- Style Customizer -->
     <script src="js/style-customizer.js"></script>
+
 </body>
 
 <!-- Mirrored from iqonic.design/themes/sofbox/color/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jul 2020 06:12:46 GMT -->
