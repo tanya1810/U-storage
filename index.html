@@ -92,7 +92,7 @@
             opacity: 0;
         }
 
-        .feature_item:hover {
+        .feature_item {
             -webkit-box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.11);
             box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.11);
         }
@@ -119,10 +119,10 @@
             opacity: 1;
             background: transparent;
             border-color: transparent;
-            background-image: -webkit-gradient(linear, left top, right top, from(#6ebdfe), to(#9b8aff));
-            background-image: -webkit-linear-gradient(left, #6ebdfe, #9b8aff);
-            background-image: -o-linear-gradient(left, #6ebdfe, #9b8aff);
-            background-image: linear-gradient(left, #6ebdfe, #9b8aff);
+            background-image: -webkit-gradient(linear, left top, right top, from(#6fbcfe), color-stop(51%, #998dff), to(#6fbcfe));
+            background-image: -webkit-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+            background-image: -o-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+            background-image: linear-gradient(to right, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
             color: transparent;
             -webkit-background-clip: text;
             background-clip: text;
@@ -134,10 +134,10 @@
 
         .service_feature .feature_inner .feature_item:hover .more_btn {
             color: #fff;
-            background-image: -webkit-gradient(linear, left top, right top, from(#70bafe), color-stop(51%, #998dff), to(#70bafe));
-            background-image: -webkit-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
-            background-image: -o-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
-            background-image: linear-gradient(to right, #70bafe 0%, #998dff 51%, #70bafe 100%);
+            background-image: -webkit-gradient(linear, left top, right top, from(#6fbcfe), color-stop(51%, #998dff), to(#6fbcfe));
+            background-image: -webkit-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+            background-image: -o-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+            background-image: linear-gradient(to right, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
             border-color: rgba(204, 241, 255, 0.5);
             background-clip: inherit;
         }
@@ -255,6 +255,18 @@
             line-height: 50px;
             border-radius: 90px;
         }
+
+        @media only screen and (max-width: 1000px) {
+            .fadeshow1 {
+                display: none !important;
+            }
+        }
+
+
+
+        /* .modal-backdrop {
+            background-color: transparent !important;
+        } */
     </style>
 </head>
 
@@ -278,13 +290,13 @@
     </div>
     <!-- loading End -->
     <!-- Header -->
-    <header id="main-header">
+    <header style="background-color: #7ee8fa ;" id="main-header">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12">
-                    <nav class="navbar navbar-expand-lg navbar-light">
+                    <nav class="navbar navbar-expand-lg navbar-light navbar-static-top">
                         <a class="navbar-brand" href="index.html">
-                            <img class="img-fluid" src="images/logo.png" alt="#">
+                            <img class="img-fluid" src="images/store my goods3.png" alt="#">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -294,34 +306,37 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto w-100 justify-content-end">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#iq-home">Home</a>
+                                    <a class="nav-link active" href="#iq-home" style="font-weight:bold;">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#about-section">AboutUs</a>
+                                    <a class="nav-link" href="#about-section" style="font-weight:bold;">AboutUs</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#how-it-works">3-Steps Process</a>
+                                    <a class="nav-link" href="#how-it-works" style="font-weight:bold;">3-Steps
+                                        Process</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#storables">Storables</a>
+                                    <a class="nav-link" href="#storables" style="font-weight:bold;">Storables</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#storage-plans">Storage Plans</a>
+                                    <a class="nav-link" href="#storage-plans" style="font-weight:bold;">Storage
+                                        Plans</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#usps">USP's</a>
+                                    <a class="nav-link" href="#usps" style="font-weight:bold;">USP's</a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="#accreditation"
+                                        style="font-weight:bold;">Accreditations</a>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#facilities" style="font-weight:bold;">Facilities</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#accreditation">Accreditations</a>
+                                    <a class="nav-link" href="#testimonials" style="font-weight:bold;">Testimonials</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#facilities">Facilities</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#testimonials">Testimonials</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#contact-us">Contact</a>
+                                    <a class="nav-link" href="#contact-us" style="font-weight:bold;">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -331,21 +346,13 @@
         </div>
     </header>
     <!-- Header End -->
-    <!-- Home Section -->
-    <section id="iq-home" class="iq-banner overview-block-pt iq-bg-over iq-over-blue-90 iq-parallax"
-        data-jarallax='{"speed": 0.6}' style="background: url(images/bg/01.jpg);">
+    <section id="iq-home" class="iq-banner overview-block-pt iq-parallax" data-jarallax='{"speed": 0.6}'
+        style="height: 80vh; background: url(images/bg/background.png); margin-top: 100px !important;">
         <div class="container-fluid">
             <div class="banner-text">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h1 class="text-uppercase iq-font-white iq-tw-3"><span
-                                style="font-weight: 600px !important; font-weight: 5000 !important;"><b class="iq-tw-7">
-                                    U - Storage</b></span></h1>
-                        <h4 class="iq-font-white iq-pt-15 iq-mb-40">Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.</h4>
                         <div class="waves-box">
-                            <a href="https://www.youtube.com/watch?v=0O2aH4XLbto" class="iq-video popup-youtube"><i
-                                    class="ion-ios-play-outline"></i></a>
                             <div class="iq-waves">
                                 <div class="waves wave-1"></div>
                                 <div class="waves wave-2"></div>
@@ -354,7 +361,6 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <img class="banner-img" src="images/banner/01.png" alt="">
                     </div>
                 </div>
             </div>
@@ -385,16 +391,23 @@
                     <div class="col-lg-6">
                         <span>
                             <h1 class="iq-tw-6 iq-mb-25">Who are <span
-                                    style="color:#4ac4f3; font-weight: bolder; ">WE</span>?</h1>
+                                    style="color:#ff3e58; font-weight: bolder; ">WE</span>?</h1>
                         </span>
-                        <p class="iq-font-15">Simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                            took a galley of type and scrambled it to make a type specimen book.</p>
-                        <p class="iq-font-15 iq-mt-20">It has survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        
+                        <p class="iq-font-15" style="font-size: 18px; line-height: 32px; letter-spacing: -0.003em;">We
+                            provide affordable solution for those who are stranded in their
+                            hometown while have left over their valuables in Delhi / NCR.
+                            We are experts at storage solutions and bring professional and personalized service to your
+                            doorstep. We understand the importance of choice and flexibility. Our services are therefore
+                            customized to your requirements.
+                        </p>
+                        <p class="iq-font-15 iq-mt-20"
+                            style="font-size: 18px; line-height: 32px; letter-spacing: -0.003em;">Household goods |
+                            Seasonal and festive clothing | Business
+                            Storage | art and valuables | collectables | memories | Vehicle storage . We provide an
+                            innovative & secure storage solution for homes and businesses. Our flexible storage plans
+                            cater to anyone: whether you need to store business inventory or even household goods, we
+                            keep it safe!</p>
+
                     </div>
                     <div class="col-lg-6 align-self-center">
                         <img class="iq-works-img"
@@ -429,7 +442,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="iq-objects">
+                        <div class="iq-objects fadeshow1">
                             <span class="iq-objects-02" data-bottom="transform:translatey(50px)"
                                 data-top="transform:translatey(-100px);">
                                 <img src="images/drive/04.png" alt="drive02">
@@ -444,49 +457,150 @@
                         </div>
                         <div class="heading-title">
                             <h1 class="title iq-tw-7">Three Steps Easy<br><span
-                                    style="color: #4ac4f3; font-weight: bolder;">Process</span></h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley,</p>
+                                    style="color: #ff3e58; font-weight: bolder;">Process</span></h1>
+                            <p></p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 col-lg-4">
+                    <div class="col-md-4 col-sm-4 col-lg-4 r-mt-30">
                         <div class="iq-works-box text-left">
                             <div class="step">1</div>
                             <div class="icon-bg text-center img-fluid-center">
-                                <img src="images/services/interior-design.png" class="img-fluid" alt="#">
+                                <img src="images/services/pick and pack.png" class="img-fluid" alt="#">
                             </div>
-                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We Pack and Pick</h5>
-                            <p style="text-align: justified;">Call us over. We will Pack and Pick things from your
-                                place.</p>
+                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15" style="text-align: center;"><b>We Pack
+                                    and Pick</b></h5>
+                            <p style="text-align:center;">CALL US OVER AND SEND US THE KEYS .
+                                WE WILL PACK AND PICK THINGS FROM YOUR PLACE .</p>
+                            <div style="display: flex; justify-content: center;">
+                                <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
+                                    More</a></div>
+                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button> -->
+                                            <h2 style="font-size: 30px;" class="iq-font-white iq-tw-7"
+                                                id="exampleModalLongTitle1">
+                                                <b>We Pack and Pick</b></h2>
+
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><br>Lockable and secure self-storage units of various sizes. Our units
+                                                are strong and durable and keep all kinds of goods safe. We have
+                                                unbeatable household locker services and the facility of jumbo lockers .
+                                                What’s better? Our facilities are designed to maintain the right
+                                                environmental conditions that keep your goods intact.<br></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="button" data-dismiss="modal"
+                                                aria-label="Close">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-4 r-mt-30">
+                    <div class="col-md-4 col-sm-4 col-lg-4 r-mt-30">
                         <div class="iq-works-box text-left">
                             <div class="step">2</div>
                             <div class="icon-bg text-center img-fluid-center">
-                                <img src="images/services/truck.png" class="img-fluid" alt="#">
+                                <img src="images/services/transport facility.png" class="img-fluid" alt="#">
                             </div>
-                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We Transport</h5>
-                            <p style="text-align: justified;">We take your things safely to our secured facilities.</p>
+                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15" style="text-align: center;"><b>We
+                                    Transport</b></h5>
+                            <p style="text-align: center;">WE TAKE YOUR THINGS SAFELY TO OUR SECURED FACILITIES. </p>
+                            <br>
+                            <div style="display: flex; justify-content: center;">
+                                <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter2">Read
+                                    More</a></div>
+                            <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button> -->
+                                            <h2 style="font-size: 30px;" class="iq-font-white iq-tw-7"
+                                                id="exampleModalLongTitle1">
+                                                <b>We Transport</b></h2>
+
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><br>Our pressure and jerk resistant cartons keep your valuables safe and
+                                                secure and ensure
+                                                absolute safekeeping of the goods . We maintain the highest protection
+                                                therefore having
+                                                impenetrable locker services.<br></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="button" data-dismiss="modal"
+                                                aria-label="Close">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-4 r-mt-30">
+                    <div class="col-md-4 col-lg-4 col-sm-4 r-mt-30">
                         <div class="iq-works-box text-left">
                             <div class="step">3</div>
                             <div class="icon-bg text-center img-fluid-center">
-                                <img src="images/services/icons8-home-100.png" class="img-fluid" alt="#"></div>
-                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We keep it Safe</h5>
-                            <p style="text-align: justified;">Your things are stored in our world class facilities and
-                                returned when you need them.</p>
+                                <img src="images/services/Storage facility.png" class="img-fluid" alt="#"></div>
+                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15" style="text-align: center;"><b>We keep
+                                    it Safe</b></h5>
+                            <p style="text-align: center;">YOUR THINGS ARE STORED IN OUR WORLD CLASS FACILITIES
+                                AND RETURNED WHEN YOU NEED THEM .
+                            </p>
+                            <div style="display: flex; justify-content: center;">
+                                <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter3">Read
+                                    More</a></div>
+                            <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button> -->
+                                            <h2 style="font-size: 30px;" class="iq-font-white iq-tw-7"
+                                                id="exampleModalLongTitle1">
+                                                <b>We Keep it Safe</b></h2>
+
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><br>Safe and Secure<br>
+                                                Our facilities match the highest global safety and security standards.
+                                                24x7 monitoring, fire safety systems, rodent and pest resistant cartons
+                                                and access
+                                                control ensure absolute safekeep of your things. The best part? We
+                                                deliver any of your
+                                                boxes whenever you need!<br></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="button" data-dismiss="modal"
+                                                aria-label="Close">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- 3-Steps Section END -->
+
+
+
 
 
         <!-- Storables -->
@@ -501,113 +615,129 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12 col-lg-4 col-md-6">
+                    <div class="col-sm-4 col-lg-4 col-md-4 r-mt-30">
                         <div class="iq-fancy-box text-center">
-                            <div class="iq-icon">
-                                <i class="fas fa-box-open" style="margin-top:21px;"></i>
+                            <div class="iq-icon" style="width: 120px; height: 120px;">
+                                <img src="images/services/House hold items.png" class="img-fluid" alt="#">
                             </div>
                             <div class="fancy-content">
-                                <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Household Goods</h5>
-                                <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-                                </p>
+                                <h5 class="iq-tw-6 iq-pt-20 iq-pb-10"><b>Household Goods</b></h5><br>
 
                             </div>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Read
-                                More</button>
-
-                            <!-- Modal -->
-                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                            <div style="display: flex; justify-content: center;">
+                                <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter4">Read
+                                    More</a></div>
+                            <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
-                                            </button>
+                                            </button> -->
+                                            <h2 style="font-size: 30px;" class="iq-font-white iq-tw-7"
+                                                id="exampleModalLongTitle1">
+                                                <b>Household Goods</b></h2>
+
                                         </div>
                                         <div class="modal-body">
-                                            ...
+                                            <p><br>Whether it be store furniture, appliances, crockery, sports
+                                                equipment,
+                                                toys, baby belongings, luggage sets etc. we ensure that your things are
+                                                well-maintained. Safely transported and returned to you when you need
+                                                them .<br>
+                                            </p>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                            <button type="button" class="button" data-dismiss="modal"
+                                                aria-label="Close">Close</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-4 col-md-6 r4-mt-30">
+                    <div class="col-sm-4 col-lg-4 col-md-4 r4-mt-30">
                         <div class="iq-fancy-box text-center">
-                            <div class="iq-icon">
-                                <i class="fas fa-tshirt" style="margin-top:21px;"></i>
+                            <div class="iq-icon" style="width: 120px; height: 120px;">
+                                <img src="images/services/seasonal and festive clothing.png" class="img-fluid" alt="#">
                             </div>
                             <div class="fancy-content">
-                                <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Seasonal and Festive Clothing</h5>
-                                <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-                                </p>
-                            </div>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Read
-                                More</button>
+                                <h5 class="iq-tw-6 iq-pt-20 iq-pb-10"><b>Seasonal and Festive Clothing</b></h5>
 
-                            <!-- Modal -->
-                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                            </div>
+                            <div style="display: flex; justify-content: center;">
+                                <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter5">Read
+                                    More</a></div>
+                            <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
-                                            </button>
+                                            </button> -->
+                                            <h2 style="font-size: 30px;" class="iq-font-white iq-tw-7"
+                                                id="exampleModalLongTitle1">
+                                                <b>Seasonal and Festive Clothes</b></h2>
+
                                         </div>
                                         <div class="modal-body">
-                                            ...
+                                            <p><br>Why cram up your limited closet space ? We ensure that your bulky
+                                                seasonal / festive
+                                                clothes are safely stored in the right conditions and returned to you at
+                                                the right
+                                                moments .
+                                                <br>
+                                            </p>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                            <button type="button" class="button" data-dismiss="modal"
+                                                aria-label="Close">Close</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-4 col-md-6 r-mt-30">
+                    <div class="col-sm-4 col-lg-4 col-md-4 r-mt-30">
                         <div class="iq-fancy-box text-center">
-                            <div class="iq-icon">
-                                <i class="fas fa-folder" style="margin-top:21px;"></i>
+                            <div class="iq-icon" style="width: 120px; height: 120px;">
+                                <img src="images/services/business storage.png" class="img-fluid" alt="#">
                             </div>
                             <div class="fancy-content">
-                                <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Business Storage</h5>
-                                <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-                                </p>
-                            </div>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Read
-                                More</button>
+                                <h5 class="iq-tw-6 iq-pt-20 iq-pb-10"><b>Business Storage</b></h5><br>
 
-                            <!-- Modal -->
-                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                            </div>
+                            <div style="display: flex; justify-content: center;">
+                                <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter6">Read
+                                    More</a></div>
+                            <div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
-                                            </button>
+                                            </button> -->
+                                            <h2 style="font-size: 30px;" class="iq-font-white iq-tw-7"
+                                                id="exampleModalLongTitle1">
+                                                <b>Business Storage</b></h2>
+
                                         </div>
                                         <div class="modal-body">
-                                            ...
+                                            <p><br>Stock, supplies, marketing collateral, Important documents etc. Why
+                                                pay huge costs of
+                                                running your own warehouse when you can leave it all to us?
+                                                <br>
+                                            </p>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                            <button type="button" class="button" data-dismiss="modal"
+                                                aria-label="Close">Close</button>
                                         </div>
                                     </div>
                                 </div>
@@ -615,111 +745,122 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-lg-4 col-md-6 iq-mt-30">
+                    <div class="col-sm-4 col-lg-4 col-md-4 iq-mt-30">
                         <div class="iq-fancy-box text-center">
-                            <div class="iq-icon">
-                                <i class="fas fa-palette" style="margin-top:21px;"></i>
+                            <div class="iq-icon" style="width: 120px; height: 120px;">
+                                <img src="images/services/Art and valuables.png" class="img-fluid" alt="#">
                             </div>
                             <div class="fancy-content">
-                                <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Art and Valuables</h5>
-                                <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-                                </p>
+                                <h5 class="iq-tw-6 iq-pt-20 iq-pb-10"><b>Art and Valuables</b></h5>
                             </div>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Read
-                                More</button>
-
-                            <!-- Modal -->
-                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                            <div style="display: flex; justify-content: center;">
+                                <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter7">Read
+                                    More</a></div>
+                            <div class="modal fade" id="exampleModalCenter7" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
-                                            </button>
+                                            </button> -->
+                                            <h2 style="font-size: 30px;" class="iq-font-white iq-tw-7"
+                                                id="exampleModalLongTitle1">
+                                                <b>Art and Valuables</b></h2>
+
                                         </div>
                                         <div class="modal-body">
-                                            ...
+                                            <p><br>Whether you’re an avid collector or a gallery owner, we keep the most
+                                                efficient
+                                                environment to save these precious pieces.
+                                                <br>
+                                            </p>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                            <button type="button" class="button" data-dismiss="modal"
+                                                aria-label="Close">Close</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-4 col-md-6 iq-mt-30">
+                    <div class="col-sm-4 col-lg-4 col-md-4 iq-mt-30">
                         <div class="iq-fancy-box text-center">
-                            <div class="iq-icon">
-                                <i class="fas fa-gem" style="margin-top:21px;"></i>
+                            <div class="iq-icon" style="width: 120px; height: 120px;">
+                                <img src="images/services/Collectibles.png" class="img-fluid" alt="#">
                             </div>
                             <div class="fancy-content">
-                                <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Collectibles</h5>
-                                <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-                                </p>
+                                <h5 class="iq-tw-6 iq-pt-20 iq-pb-10"><b>Collectibles</b></h5>
                             </div>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Read
-                                More</button>
-
-                            <!-- Modal -->
-                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                            <div style="display: flex; justify-content: center;">
+                                <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter8">Read
+                                    More</a></div>
+                            <div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
-                                            </button>
+                                            </button> -->
+                                            <h2 style="font-size: 30px;" class="iq-font-white iq-tw-7"
+                                                id="exampleModalLongTitle1">
+                                                <b>Collectibles</b></h2>
+
                                         </div>
                                         <div class="modal-body">
-                                            ...
+                                            <p><br>We have the ideal storage spaces to keep your precious collectibles
+                                                secure .
+                                                <br>
+                                            </p>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                            <button type="button" class="button" data-dismiss="modal"
+                                                aria-label="Close">Close</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-lg-4 col-md-6 iq-mt-30">
+                    <div class="col-sm-4 col-lg-4 col-md-4 iq-mt-30">
                         <div class="iq-fancy-box text-center">
-                            <div class="iq-icon">
-                                <i class="fas fa-images" style="margin-top:21px;"></i>
+                            <div class="iq-icon" style="width: 120px; height: 120px;">
+                                <img src="images/services/Memories.png" class="img-fluid" alt="#">
                             </div>
                             <div class="fancy-content">
-                                <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Memories</h5>
-                                <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-                                </p>
+                                <h5 class="iq-tw-6 iq-pt-20 iq-pb-10"><b>Memories</b></h5>
                             </div>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Read
-                                More</button>
-
-                            <!-- Modal -->
-                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                            <div style="display: flex; justify-content: center;">
+                                <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter9">Read
+                                    More</a></div>
+                            <div class="modal fade" id="exampleModalCenter9" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <div class="iq-pricing text-center">
+                                        <div class="price-title iq-parallax iq-over-blue-80"
+                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
-                                            </button>
+                                            </button> -->
+                                            <h2 style="font-size: 30px;" class="iq-font-white iq-tw-7"
+                                                id="exampleModalLongTitle1">
+                                                <b>Memories</b></h2>
+
                                         </div>
                                         <div class="modal-body">
-                                            ...
+                                            <p><br>Some things are infinitely precious. Keep your kid’s toys, photo
+                                                albums, baby books,
+                                                decorations, trophies, etc. safe and sound.
+                                                <br>
+                                            </p>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                            <button type="button" class="button" data-dismiss="modal"
+                                                aria-label="Close">Close</button>
                                         </div>
                                     </div>
                                 </div>
@@ -741,158 +882,54 @@
                         <div class="heading-title">
                             <span>
                                 <h1 class="title iq-tw-7">Storage <span
-                                        style="color: #4ac4f3; font-weight: bolder;">Plans</span></h1>
+                                        style="color: #ff3e58; font-weight: bolder;">Plans</span></h1>
                             </span>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley,</p>
+                            <p
+                                style="font-size: 20px; margin-bottom: 2%; font-weight: bold; line-height: 32px; letter-spacing: -0.003em;">
+                                Storage EXPERTISE that you can entrust your
+                                most sensitive and cherished belongings with.</p>
+
+                            <p
+                                style="margin-top:0; font-size: 16px; font-weight: bold; line-height: 32px; letter-spacing: -0.003em;">
+                                We present you some of the perfect security
+                                and protection standards for high value belongings or exceptional gadgets. Every aspect
+                                of these exclusive speciality storage perimeter and vaults have been diligently
+                                deliberate and benchmarked against the best world standards.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row feature_inner">
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-sm-4 cold-md-4">
                         <div class="feature_item">
-                            <div class="f_icon">
-                                <img src="images/services/icons8-box-128.png" alt="">
+                            <div style="margin-top: 4%;" class="f_icon">
+                                <img src="images/services/box-storage.png" alt="">
                             </div>
-                            <h4>Box Storage</h4>
-                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
-                                blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
-                                More</a>
-                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
-                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="iq-pricing text-center">
-                                        <div class="price-title iq-parallax iq-over-blue-80"
-                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
-                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button> -->
-                                            <h2 class="iq-font-white iq-tw-7" id="exampleModalLongTitle1">
-                                                <small>$</small>29<small>/Month</small></h2>
-                                            <span class="text-uppercase iq-tw-4 iq-font-white">STANDARD</span>
-
-
-                                        </div>
-                                        <div class="modal-body">
-                                            <ul>
-                                                <li>100 MB Disk Space</li>
-                                                <li>2 Subdomains</li>
-                                                <li>5 Email Accounts</li>
-                                                <li>
-                                                    <s>Webmail Support</s>
-                                                </li>
-                                                <li>Customer Support 24/7</li>
-                                            </ul>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <div class="price-footer">
-                                                <a class="button" href="# ">Purchase</a>
-                                            </div>
-                                            <button type="button" class="button" data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="more_btn" href="#">Book Now</a>
+                            <h4 style="text-align: center;"><b>Box Storage</b></h4>
+                            <p style="font-size: 18px;">Packing done right with boxes.</p><br>
+                            <p style="font-size: 20px;  margin-top: -14%;"><b>Price:</b> 199/- per box for a month.
+                                <!-- month.<br><b>Box Size: </b>2 ft x 1.25 ft x 1 ft</p> -->
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-sm-4 cold-md-4">
                         <div class="feature_item">
-                            <div class="f_icon">
-                                <img src="images/services/icons8-shop-100.png" alt="">
+                            <div style="margin-top: 4%;" class="f_icon">
+                                <img src="images/services/joint-storage.png" alt="">
                             </div>
-                            <h4>Joint Storage</h4>
-                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
-                                blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter2">Read
-                                More</a>
-                            <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
-                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="iq-pricing text-center">
-                                        <div class="price-title iq-parallax iq-over-blue-80"
-                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
-                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button> -->
-                                            <h2 class="iq-font-white iq-tw-7" id="exampleModalLongTitle2">
-                                                <small>$</small>29<small>/Month</small></h2>
-                                            <span class="text-uppercase iq-tw-4 iq-font-white">STANDARD</span>
-
-
-                                        </div>
-                                        <div class="modal-body">
-                                            <ul>
-                                                <li>100 MB Disk Space</li>
-                                                <li>2 Subdomains</li>
-                                                <li>5 Email Accounts</li>
-                                                <li>
-                                                    <s>Webmail Support</s>
-                                                </li>
-                                                <li>Customer Support 24/7</li>
-                                            </ul>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <div class="price-footer">
-                                                <a class="button" href="# ">Purchase</a>
-                                            </div>
-                                            <button type="button" class="button" data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <a class="more_btn" href="#">Book Now</a>
+                            <h4><b>Joint Storage</b></h4>
+                            <p style="font-size: 18px;">Don’t wanna spend much? We got you covered.</p>
+                            <p style="font-size: 20px; margin-top: -6%;"><b>Price:</b> 99/- per sqft for a month.</p>
+                            <br>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-sm-4 cold-md-4">
                         <div class="feature_item">
-                            <div class="f_icon">
-                                <img src="images/services/icons8-school-locker-100.png" alt="">
+                            <div style="margin-top: 4%;" class="f_icon">
+                                <img src="images/services/private-storage.png" alt="">
                             </div>
-                            <h4>Private Storage</h4>
-                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
-                                blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter3">Read
-                                More</a>
-                            <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
-                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="iq-pricing text-center">
-                                        <div class="price-title iq-parallax iq-over-blue-80"
-                                            data-jarallax='{"speed": 0.6}' style="background: url(images/bg/08.jpg);">
-                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button> -->
-                                            <h2 class="iq-font-white iq-tw-7" id="exampleModalLongTitle3">
-                                                <small>$</small>29<small>/Month</small></h2>
-                                            <span class="text-uppercase iq-tw-4 iq-font-white">STANDARD</span>
-
-
-                                        </div>
-                                        <div class="modal-body">
-                                            <ul>
-                                                <li>100 MB Disk Space</li>
-                                                <li>2 Subdomains</li>
-                                                <li>5 Email Accounts</li>
-                                                <li>
-                                                    <s>Webmail Support</s>
-                                                </li>
-                                                <li>Customer Support 24/7</li>
-                                            </ul>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <div class="price-footer">
-                                                <a class="button" href="# ">Purchase</a>
-                                            </div>
-                                            <button type="button" class="button" data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="more_btn" href="#">Book Now</a>
+                            <h4><b>Private Storage</b></h4>
+                            <p style="font-size: 18px;">Privacy is priority, Get your own storage at a little upgrade.
+                            </p>
+                            <p style="font-size: 20px; margin-top: -6%;"><b>Price:</b> 149/- per sqft for a month.</p>
                         </div>
                     </div>
                 </div>
@@ -906,7 +943,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="iq-objects">
+                        <div class="iq-objects fadeshow1">
                             <!--<span class="iq-objects-02" data-bottom="transform:translatey(50px)"
                                 data-top="transform:translatey(-100px);">
                                 <img src="images/drive/04.png" alt="drive02">
@@ -915,11 +952,11 @@
                                 data-top="transform:translatex(-100px);">
                                 <img src="images/drive/03.png" alt="drive02">
                             </span> -->
-                            <span class="iq-objects-04 iq-fadebounce">
+                            <span class="iq-objects-04 iq-fadebounce" style="border: 48px solid #ff3e58;">
                                 <span class="iq-round"></span>
                             </span>
                         </div>
-                        <div class="iq-objects-software">
+                        <div class="iq-objects-software fadeshow1">
                             <span class="iq-objects-01" data-bottom="transform:translatey(50px)"
                                 data-top="transform:translatey(-100px);">
                                 <img src="images/drive/03.png" alt="drive02">
@@ -927,10 +964,7 @@
                         </div>
                         <div class="heading-title">
                             <h1 class="iq-tw-6 iq-mb-25">What makes us <br><span
-                                    style="color: #4ac4f3; font-weight: bolder;">UNIQUE</span>?</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley,</p>
+                                    style="color: #ff3e58; font-weight: bolder;">UNIQUE</span>?</h1>
                         </div>
                     </div>
                 </div>
@@ -939,100 +973,38 @@
                         <div class="iq-works-box text-left">
                             <div class="step">1</div>
                             <div class="icon-bg text-center img-fluid-center">
-                                <img src="images/services/alarm.png" class="img-fluid" alt="#">
+                                <img src="images/services/usp1.png" class="img-fluid" alt="#">
                             </div>
-                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We Pack and Pick</h5>
-                            <p style="text-align: justified;">Call us over. We will Pack and Pick things from your
-                                place.</p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
-                                More</a>
-                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
-                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle1">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            ...
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <h5 style="text-align: center;" class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15"><b>STORE
+                                    ONLY FOR AS LONG AS YOU NEED</b></h5>
+                            <p style="text-align: center;">We support you no matter what, so store for as long as you
+                                need.</p>
+                            
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-4 r-mt-30">
                         <div class="iq-works-box text-left">
                             <div class="step">2</div>
                             <div class="icon-bg text-center img-fluid-center">
-                                <img src="images/services/money.png" class="img-fluid" alt="#">
+                                <img src="images/services/usp2.png" class="img-fluid" alt="#">
                             </div>
-                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We Transport</h5>
-                            <p style="text-align: justified;">We take your things safely to our secured facilities.</p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
-                                More</a>
-                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
-                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle1">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            ...
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <h5 style="text-align: center;" class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15"><b>NO LARGE
+                                    SECURITY DEPOSITS</b></h5>
+                            <p style="text-align: center;">Trust is the factor we invest in that is why we don’t ask you
+                                for large security deposits.</p>
+                            
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-4 r-mt-30">
                         <div class="iq-works-box text-left">
                             <div class="step">3</div>
                             <div class="icon-bg text-center img-fluid-center">
-                                <img src="images/services/wardrobe.png" class="img-fluid" alt="#"></div>
-                            <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">We keep it Safe</h5>
-                            <p style="text-align: justified;">Your things are stored in our world class facilities and
-                                returned when you need them.</p>
-                            <a class="more_btn" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Read
-                                More</a>
-                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
-                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle1">Modal title</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            ...
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                <img src="images/services/usp3.png" class="img-fluid" alt="#"></div>
+                            <h5 style="text-align: center;" class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15"><b>NO
+                                    LENGTHY LOCK-IN PERIOD</b></h5>
+                            <p style="text-align: center;">We understand you and that is why we don’t mandate the
+                                lengthy lock in periods.</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -1052,7 +1024,7 @@
                 <div class="row justify-content-end">
                     <div class="col-lg-6">
                         <h1 class="iq-tw-6 iq-mb-25">What makes us <span
-                                style="color: #4ac4f3; font-weight: bolder;">UNIQUE</span>?</h1>
+                                style="color: #ff3e58; font-weight: bolder;">UNIQUE</span>?</h1>
                         <p class="iq-font-15">Simply dummy text of the printing and typesetting industry. Lorem Ipsum
                             has been the industry's standard dummy text ever since the 1500s, when an unknown printer
                             took a galley of type and scrambled it to make a type specimen book.</p>
@@ -1100,7 +1072,7 @@
 
         <!--================End Banner Area =================-->
         <!-- Accreditation Section -->
-        <section id="accreditation" class="service_feature grey-bg">
+        <!-- <section id="accreditation" class="service_feature grey-bg">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -1138,7 +1110,7 @@
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
+                                                data-dismiss="modal" aria-label="Close">Close</button>
                                             <button type="button" class="btn btn-primary">Save changes</button>
                                         </div>
                                     </div>
@@ -1204,7 +1176,7 @@
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
+                                                data-dismiss="modal" aria-label="Close">Close</button>
                                             <button type="button" class="btn btn-primary">Save changes</button>
                                         </div>
                                     </div>
@@ -1214,13 +1186,13 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--Accreditation Section End-->
         <!--================End Banner Area =================-->
 
         <!-- Safety and Optimal Services -->
-        <section id="facilities" class="overview-block-ptb iq-over iq-over-blue-90 iq-parallax"
-            data-jarallax='{"speed": 0.6}' style="background: url();">
+        <section id="facilities" class="overview-block-ptb iq-over iq-parallax" data-jarallax='{"speed": 0.6}'
+            style="background: url(); background-color: #7ee8fa;">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -1240,14 +1212,14 @@
                             </div>
                             <div class="services-content">
                                 <h5 class="iq-tw-6 iq-pb-10 iq-font-white">Private Lock Units</h5>
-                                <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-                                </p>
+                                <p>A sense of security and ownership is necessary that’s why we give you your private
+                                    lock units.</p>
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal">Read More</button>
+                                <!-- <button type="button" class="btn btn-info" data-toggle="modal"
+                                    data-target="#myModal">Read More</button> -->
 
                                 <!-- Modal -->
-                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                                <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
                                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content">
@@ -1268,7 +1240,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -1282,35 +1254,8 @@
                             </div>
                             <div class="services-content">
                                 <h5 class="iq-tw-6 iq-pb-10 iq-font-white">Fire Detection System</h5>
-                                <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-                                </p>
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal">Read More</button>
+                                <p>You can let go about the worry of fires with our advanced fire detection system</p>
 
-                                <!-- Modal -->
-                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                ...
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
-                                                    data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -1323,35 +1268,9 @@
                             </div>
                             <div class="services-content">
                                 <h5 class="iq-tw-6 iq-pb-10 iq-font-white">24*7 Security and Survelliance</h5>
-                                <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-                                </p>
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal3">Read More</button>
+                                <p>Security is our 1st priority that’s why there is 24*7 surveillance systems installed
+                                    to ensure the safety of lock units.</p>
 
-                                <!-- Modal -->
-                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalCenterTitl" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                ...
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
-                                                    data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -1365,35 +1284,9 @@
                             </div>
                             <div class="services-content">
                                 <h5 class="iq-tw-6 iq-pb-10 iq-font-white">Ideal Environment Condition</h5>
-                                <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-                                </p>
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal4">Read More</button>
+                                <p>With our ideal environment conditions, your stuff will be in the condition it got
+                                    into our units.</p>
 
-                                <!-- Modal -->
-                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                ...
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
-                                                    data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -1406,35 +1299,9 @@
                             </div>
                             <div class="services-content">
                                 <h5 class="iq-tw-6 iq-pb-10 iq-font-white">Storage as long as you need</h5>
-                                <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-                                </p>
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal5">Read More</button>
+                                <p>We want you to stay as stress-free as you can, so you can have storage as long as you
+                                    need</p>
 
-                                <!-- Modal -->
-                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                ...
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
-                                                    data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -1448,35 +1315,9 @@
                             </div>
                             <div class="services-content">
                                 <h5 class="iq-tw-6 iq-pb-10 iq-font-white">Clean and Maintained Facility</h5>
-                                <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-                                </p>
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-info" data-toggle="modal"
-                                    data-target="#myModal6">Read More</button>
+                                <p>We guarantee that storage units are well-kept and the facility is maintained and
+                                    ensured to be clean.</p>
 
-                                <!-- Modal -->
-                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                ...
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
-                                                    data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -1493,9 +1334,6 @@
                     <div class="col-sm-12">
                         <div class="heading-title iq-mt-50">
                             <h1 class="title iq-tw-7 respbtn"><b>Testimonials</b></h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley,</p>
                         </div>
                     </div>
                 </div>
@@ -1516,10 +1354,13 @@
                                     <div class="client-info">
                                         <div class="client-name iq-mb-10">
                                             <h5 class="iq-tw-6">Jason Adams</h5>
-                                            <span class="sub-title iq-tw-6">CEO, Sofbox</span>
                                         </div>
-                                        <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor coli incididunt ut labore.</p>
+                                        <p>Store my goods offers an innovative storage solution to free up space in your
+                                            home, garage or office by storing your things for as long as you want in
+                                            their high tech, secured facility. They offer flexible storage plans cater
+                                            to anyone. The store provides 24x7 security & surveillance. Try their
+                                            sealable and durable boxes that are perfect for small to mid-sized items and
+                                            No large security deposits.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1535,10 +1376,12 @@
                                     <div class="client-info">
                                         <div class="client-name iq-mb-10">
                                             <h5 class="iq-tw-6">Jenny Adams</h5>
-                                            <span class="sub-title iq-tw-6">CEO, Sofbox</span>
                                         </div>
-                                        <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor coli incididunt ut labore.</p>
+                                        <p>Store my goods has come with their various Space Saving Systems and
+                                            Techniques which are specially designed for storage of multiple items. Their
+                                            products are guaranteed for quality and trouble-free service for a long
+                                            time-life time. They also give you a very special and competitive quotation
+                                            to suit your budget.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1554,13 +1397,61 @@
                                     <div class="client-info">
                                         <div class="client-name iq-mb-10">
                                             <h5 class="iq-tw-6">John Deo</h5>
-                                            <span class="sub-title iq-tw-6">CEO, Sofbox</span>
                                         </div>
-                                        <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor coli incididunt ut labore.</p>
+                                        <p>Store my goods is the most comprehensive and cheap storage solutions provider
+                                            , i have browsed till now , they have ideal facilities, spaces and plans
+                                            that serve your short and long-term needs. The traditional warehousing
+                                            models and other transit service providers leave the business owners and
+                                            individuals with little option and flexibility. They are experts at storage
+                                            solutions and bring professional and personalized service to your doorstep.
+                                            They are experts at storage solutions !</p>
                                     </div>
                                 </div>
                             </div>
+                            <div class="item">
+                                <div class="iq-client white-bg">
+                                    <div class="client-img">
+                                        <a href="https://www.youtube.com/watch?v=4H5dtevdkEY" ; target="_blank" ;
+                                            autostart="false">
+                                            <img alt="#" class="img-fluid rounded-circle"
+                                                src="images/testimonial/01.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="client-info">
+                                        <div class="client-name iq-mb-10">
+                                            <h5 class="iq-tw-6">Jason Adams</h5>
+                                        </div>
+                                        <p>Store my goods is a new company that provides you with high-security private
+                                            lockable units to store your stuff. It can range from documents to clothes
+                                            to literally anything that needs storage. All starting at INR 99!
+                                            It has really helped me to collect, store , and return my stuff in really
+                                            cheap prices and i would recommend it to all the people suffering with
+                                            storage of goods.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="iq-client white-bg">
+                                    <div class="client-img">
+                                        <a href="https://www.youtube.com/watch?v=4H5dtevdkEY" ; target="_blank" ;
+                                            autostart="false">
+                                            <img alt="#" class="img-fluid rounded-circle"
+                                                src="images/testimonial/01.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="client-info">
+                                        <div class="client-name iq-mb-10">
+                                            <h5 class="iq-tw-6">John Doe</h5>
+                                        </div>
+                                        <p>Store my goods has come with their various Space Saving Systems and
+                                            Techniques which are specially designed for storage of multiple items. Their
+                                            products are guaranteed for quality and trouble-free service for a long
+                                            time-life time. They also give you a very special and competitive quotation
+                                            to suit your budget.</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -1587,7 +1478,7 @@
                             </div>
                             <div class="footer-content">
                                 <h4 class="iq-tw-6 iq-pb-10">Address</h4>
-                                <p>1234 North Avenue Luke Lane, South Bend, IN 360001</p>
+                                <p>A-23, A-Block, Sector 83,  Noida</p>
                             </div>
                         </div>
                     </div>
@@ -1598,7 +1489,7 @@
                             </div>
                             <div class="footer-content">
                                 <h4 class="iq-tw-6 iq-pb-10">Phone</h4>
-                                <p>+0123 456 789
+                                <p><a href="tel:9140470096">+91 9140470096</a>
                                     <br>Mon-Fri 8:00am - 8:00pm
                                     <br>
                                 </p>
@@ -1612,22 +1503,21 @@
                             </div>
                             <div class="footer-content">
                                 <h4 class="iq-tw-6 iq-pb-10">Mail</h4>
-                                <p><a href="https://iqonic.design/cdn-cgi/l/email-protection" class="__cf_email__"
-                                        data-cfemail="64171114140b161024170b02060b1c4a070b09">[email&#160;protected]</a>
+                                <p><a href="mailto:bisenanimesh@gmail.com" class="__cf_email__">bisenanimesh@gmail.com</a>
                                     <br>24 X 7 online support
                                     <br>
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 align-self-center">
+                    <!-- <div class="col-md-6 col-lg-3 align-self-center">
                         <ul class="info-share">
                             <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="javascript:void(0)"><i class="fa fa-google"></i></a></li>
                             <li><a href="javascript:void(0)"><i class="fa fa-github"></i></a></li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="row iq-mt-40">
                     <div class="col-sm-12 text-center">
@@ -1635,7 +1525,7 @@
                                 <script data-cfasync="false"
                                     src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                                 <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-                            </span> <a href="javascript:void(0)" class="text-green">Sofbox.</a> All Rights Reserved
+                            </span> <a href="javascript:void(0)" class="text-green">Store My Goods.</a> All Rights Reserved
                         </div>
                     </div>
                 </div>
