@@ -21,7 +21,7 @@ NOTE: This file contains the styling for responsive Template.
 	.iq-banner .banner-text h1 { font-size: 56px; }
 	.counter-info-img img { width: 118%; margin-top: 0; }
 	.counter-info .waves-box { left: 54%; }
-	.iq-objects .iq-objects-04, .iq-objects-software .iq-objects-03 { border: 48px solid #4ac4f3; height: 500px; width: 500px; }
+	.iq-objects .iq-objects-04, .iq-objects-software .iq-objects-03 { border: 48px solid #ff3e58; height: 500px; width: 500px; }
 	#software-features { margin-top: 0; }
 	.iq-objects-software .iq-objects-02 { bottom: 13%; }
 	.iq-software-demo { top: 80px; }
@@ -64,7 +64,7 @@ NOTE: This file contains the styling for responsive Template.
 	.slider-container .slider-left { right: 100%; }
 	.slider-container .slider-right { left: 100%; }
 	.iq-software-demo { top: 23%; }
-	.iq-objects .iq-objects-04, .iq-objects-software .iq-objects-03 { border: 48px solid #4ac4f3; height: 400px; width: 400px; }
+	.iq-objects .iq-objects-04, .iq-objects-software .iq-objects-03 { border: 48px solid #ff3e58; height: 400px; width: 400px; }
 	.iq-objects .iq-objects-04 { top: 13%; }
 	.iq-objects-software .iq-objects-03 { top: 15%; }
 	.iq-amazing-tab .nav.nav-tabs li a { padding: 20px; }
@@ -104,7 +104,7 @@ NOTE: This file contains the styling for responsive Template.
 	.overview-block-pb.how-works .container-fluid h2{font-size: 30px; line-height: 30px;}
 	.text-left.align-self-center h3 {font-size: 28px; line-height: 40px;}
 	.no-gutters .iq-shadow i{font-size: 30px;}
-	.iq-objectsnew .iq-objects-04{border: 40px solid #4ac4f3;width: 400px;height: 400px; top: 9%;}
+	.iq-objectsnew .iq-objects-04{border: 40px solid #ff3e58;width: 400px;height: 400px; top: 9%;}
 	.iq-objects-softwarenew .iq-objects-03{border: 40px solid #4ac4f3;width: 400px;height: 400px;}
 	.iq-rmt-80{margin-top: 80px;}
 
@@ -229,7 +229,7 @@ NOTE: This file contains the styling for responsive Template.
 	header .container-fluid, .iq-banner .container-fluid, .iq-banner-04 .container-fluid { padding: 0px 15px; }
 	.iq-banner-04 .banner-text { margin-top: 13%; }
 	.iq-more-info .row.iq-mt-30 .col-sm-4 { margin: 15px 0; }
-	.iq-objects .iq-objects-04, .iq-objects-software .iq-objects-03 { border: 30px solid #4ac4f3; height: 280px; width: 280px; }
+	.iq-objects .iq-objects-04, .iq-objects-software .iq-objects-03 { border: 30px solid #ff3e58; height: 280px; width: 280px; }
 	.iq-objects-software .iq-objects-03 { left: 39%; }
 	.slider-container .slider-content { width: 40%; height: 40%; }
 	.screenshots-slider { min-height: 250px; }
@@ -275,7 +275,7 @@ NOTE: This file contains the styling for responsive Template.
     .iq-newsletter .form-group { margin-bottom: 20px; }
     .iq-tab.horizontal .nav-item{width: 43%;}
     .animation-shap .shap-bg, .animationnew-shap .shap-bg{width: 250px; height: 250px;}
-	.iq-objectsnew .iq-objects-04{border: 20px solid #4ac4f3;width: 300px;height: 300px; right: 10%; top: 0;}
+	.iq-objectsnew .iq-objects-04{border: 20px solid #ff3e58;width: 300px;height: 300px; right: 10%; top: 0;}
 	.iq-objects-softwarenew .iq-objects-03{border: 20px solid #4ac4f3;width: 300px;height: 300px;}
 	.iq-banner-12 .banner-text { z-index: 9; position: relative; margin-top: 30%; margin-bottom: 3%; }
 	.iq-banner-12 .banner-text .banner-phone{width:30%;left: -9px; bottom: -20px; }
@@ -309,7 +309,7 @@ NOTE: This file contains the styling for responsive Template.
 	.rbtn{padding: 10px 24px;font-size: 14px;}
 	.iq-tab.horizontal .nav-item a{padding: 8px 4px; font-size: 12px;}
 	.iq-tab.horizontal .nav-item{width: 50%;}
-	.iq-objectsnew .iq-objects-04{border: 20px solid #4ac4f3;width: 200px;height: 200px; right: 10%; top: 0;}
+	.iq-objectsnew .iq-objects-04{border: 20px solid #ff3e58;width: 200px;height: 200px; right: 10%; top: 0;}
 	.iq-objects-softwarenew .iq-objects-03{border: 20px solid #4ac4f3;width: 200px;height: 200px;}
 	.iq-objectsnew .iq-objects-02{display: none;}
 	.iq-objectsnew .iq-objects-03{display: none;}
