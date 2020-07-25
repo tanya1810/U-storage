@@ -550,7 +550,7 @@ Margin Right
 .iq-over-blue-50:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(74, 196, 243, 0.5); }
 .iq-over-blue-60:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(74, 196, 243, 0.6); }
 .iq-over-blue-70:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(74, 196, 243, 0.7); }
-.iq-over-blue-80:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(74, 196, 243, 0.8); }
+.iq-over-blue-80:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: #a70000 }
 .iq-over-blue-85:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(74, 196, 243, 0.85); }
 .iq-over-blue-90:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(74, 196, 243, 0.9); }
 .iq-over-blue-95:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(74, 196, 243, 0.95); }
