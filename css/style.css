@@ -1051,7 +1051,7 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
 /*--------------------------------------------------------------------
                             How it Works
 -----------------------------------------------------------------------*/
-.iq-works-box { border: 1px solid #f7f7f7; background: #fff; padding: 50px 20px; -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08); -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08); box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08); position: relative; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+.iq-works-box { border: 1px solid #f7f7f7; border-radius: 3%; background: #fff; padding: 50px 20px; -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08); -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08); box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08); position: relative; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 .iq-works-box .icon-bg { background: rgba(31, 76, 255, 0.1); height: 100px; width: 100px; border-radius: 100px; }
 .iq-works-box .icon-bg i { font-size: 50px; line-height: 100px; color: #a70000 ; }
 .iq-works-box .step { font-size: 22px; background: #a70000 ; border-radius: 100px; font-weight: bolder; border: 1px solid #f7f7f7; color: white; width: 38px; height: 38px; line-height: 38px; text-align: center; position: absolute; top: 40px; }
@@ -1195,7 +1195,7 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
 /*---------------------------------------------------------------------
                        Sofbox Specialities
 -----------------------------------------------------------------------*/
-.iq-fancy-box { padding: 40px 15px 25px 15px; overflow: hidden; position: relative; background: #fff; border: 1px solid #f2f2f2; }
+.iq-fancy-box {border-radius:2%; padding: 40px 15px 25px 15px; overflow: hidden; position: relative; background: #fff; border: 1px solid #f2f2f2; }
 .iq-fancy-box .iq-icon { border-radius: 90px; display: inline-block; height: 86px; width: 86px; line-height: 86px; text-align: center; color: #a70000 ; background: #f4f4f4; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
 .iq-fancy-box:hover .iq-icon { color: #f4f4f4; background: #a70000 ; }
 .iq-fancy-box .iq-icon i { font-size: 46px; }
