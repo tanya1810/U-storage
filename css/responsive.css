@@ -105,7 +105,7 @@ NOTE: This file contains the styling for responsive Template.
 	.text-left.align-self-center h3 {font-size: 28px; line-height: 40px;}
 	.no-gutters .iq-shadow i{font-size: 30px;}
 	.iq-objectsnew .iq-objects-04{border: 40px solid #ff3e58;width: 400px;height: 400px; top: 9%;}
-	.iq-objects-softwarenew .iq-objects-03{border: 40px solid #4ac4f3;width: 400px;height: 400px;}
+	.iq-objects-softwarenew .iq-objects-03{border: 40px solid #a70000;width: 400px;height: 400px;}
 	.iq-rmt-80{margin-top: 80px;}
 
 }
@@ -121,14 +121,14 @@ NOTE: This file contains the styling for responsive Template.
 	.iq-banner-02 .banner-text h1 { font-size: 54px; }
 	.iq-works-box.no-shadow { padding: 15px 20px; }
 	.iq-banner-02 .banner-text p { margin: 0 0 20px 0; padding: 0; }
-	.navbar-light .navbar-toggler span { color: #4ac4f3; }
+	.navbar-light .navbar-toggler span { color: #a70000; }
 	.navbar-toggler { padding: 0px 10px; font-size: 38px }
 	.navbar-toggler:focus, .navbar-toggler:hover { outline: none; }
 	header .navbar .navbar-nav .nav-item a::before { display: none; }
 	header .navbar .navbar-collapse { background: #fff; margin-top: 10px; }
 	header .navbar .navbar-nav>li { margin: 0; }
 	header .navbar .navbar-nav .nav-item a { padding: 10px 15px; color: #333; }
-	header .navbar .navbar-nav .nav-item a:hover, header .navbar .navbar-nav .nav-item a:focus, header .navbar .navbar-nav .nav-item a.active, header .navbar .navbar-nav .nav-item a.active:focus, header .navbar .navbar-nav .nav-item a.active:hover { color: #4ac4f3; }
+	header .navbar .navbar-nav .nav-item a:hover, header .navbar .navbar-nav .nav-item a:focus, header .navbar .navbar-nav .nav-item a.active, header .navbar .navbar-nav .nav-item a.active:focus, header .navbar .navbar-nav .nav-item a.active:hover { color: #a70000; }
 	header .button, header .button-line { display: none; }
 	.iq-objects .iq-objects-01 { opacity: 1; }
 	.iq-objects .iq-objects-02 { top: 40%; }
@@ -188,7 +188,7 @@ NOTE: This file contains the styling for responsive Template.
 	.iq-banner .banner-text .watch-img{right: 82%;}
 	.iq-breadcrumb .banner-ani{width: 30%}
 	header.new-header .navbar .navbar-nav .nav-item a{padding: 10px 15px;}
-	header.new-header .navbar .navbar-nav .nav-item a.active{color: #4ac4f3;}
+	header.new-header .navbar .navbar-nav .nav-item a.active{color: #a70000;}
 
 }
 @media(max-width:979px) {
@@ -276,7 +276,7 @@ NOTE: This file contains the styling for responsive Template.
     .iq-tab.horizontal .nav-item{width: 43%;}
     .animation-shap .shap-bg, .animationnew-shap .shap-bg{width: 250px; height: 250px;}
 	.iq-objectsnew .iq-objects-04{border: 20px solid #ff3e58;width: 300px;height: 300px; right: 10%; top: 0;}
-	.iq-objects-softwarenew .iq-objects-03{border: 20px solid #4ac4f3;width: 300px;height: 300px;}
+	.iq-objects-softwarenew .iq-objects-03{border: 20px solid #a70000;width: 300px;height: 300px;}
 	.iq-banner-12 .banner-text { z-index: 9; position: relative; margin-top: 30%; margin-bottom: 3%; }
 	.iq-banner-12 .banner-text .banner-phone{width:30%;left: -9px; bottom: -20px; }
 	.iq-banner-12 .banner-objects .banner-objects-02{display: none;}
@@ -310,7 +310,7 @@ NOTE: This file contains the styling for responsive Template.
 	.iq-tab.horizontal .nav-item a{padding: 8px 4px; font-size: 12px;}
 	.iq-tab.horizontal .nav-item{width: 50%;}
 	.iq-objectsnew .iq-objects-04{border: 20px solid #ff3e58;width: 200px;height: 200px; right: 10%; top: 0;}
-	.iq-objects-softwarenew .iq-objects-03{border: 20px solid #4ac4f3;width: 200px;height: 200px;}
+	.iq-objects-softwarenew .iq-objects-03{border: 20px solid #a70000;width: 200px;height: 200px;}
 	.iq-objectsnew .iq-objects-02{display: none;}
 	.iq-objectsnew .iq-objects-03{display: none;}
 	.iq-objects-softwarenew .iq-objects-01{display: none;}
