@@ -24,6 +24,12 @@
     <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
     <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
 
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;Raleway:300,400,500,600,700,800,900"
+        rel="stylesheet">
+
     <!-- Main CSS-->
     <link href="css/form.min.css" rel="stylesheet" media="all">
 
@@ -68,6 +74,8 @@
         padding: 0px;
         overflow-x: hidden;
     }
+
+    header .navbar .navbar-nav>li { margin: 0 20px 0 0; }
     .myButton {
             background-color: #a70000;
             border-radius: 28px;
@@ -96,7 +104,88 @@
     }
 </script>
 
-<body bgcolor="#f2f2f2">
+<body bgcolor="#f2f2f2" data-spy="scroll" data-offset="80">
+
+    <!-- loading -->
+    <div id="loading">
+        <div id="loading-center">
+            <div class="loader">
+                <div class="cube">
+                    <div class="sides">
+                        <div class="top"></div>
+                        <div class="right"></div>
+                        <div class="bottom"></div>
+                        <div class="left"></div>
+                        <div class="front"></div>
+                        <div class="back"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- loading End -->
+
+    <!-- Header -->
+    <header style="background-color: #a70000;height: 80px;" id="main-header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-expand-lg navbar-light navbar-static-top">
+                        <a class="navbar-brand" href="index.html">
+                            <img style="height: 100px; width: 200px; margin-top: -20px;" class="img-fluid  img-fluid-2"
+                                src="images/services/smg-removebg-preview.png" alt="#">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="ion-navicon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-top: -20px;">
+                            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#home" style="font-weight:bold; color: white;">Home</a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="#about-section" style="font-weight:bold;">AboutUs</a>
+                                </li> -->
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="#how-it-works" style="font-weight:bold;">4-Step
+                                        Process</a>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#storables" style="font-weight:bold;">Storables</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#storage-plans" style="font-weight:bold;">Storage
+                                        Plans</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#usps" style="font-weight:bold;">USP's</a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="#accreditation"
+                                        style="font-weight:bold;">Accreditations</a>
+                                </li> -->
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="#facilities" style="font-weight:bold;">Facilities</a>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#testimonials" style="font-weight:bold;">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact-us" style="font-weight:bold;">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+
+
     <div class="page-wrapper p-t-45 p-b-50">
         <div class="wrapper wrapper--w680" style="display: flex; justify-content: center; margin: auto;">
             <div class="card card-5" style="border-radius: 2%;">
@@ -113,13 +202,13 @@
                             <div class="name">Name</div>
                             <div class="value">
                                 <div class="row row-space">
-                                    <div class="col-2">
+                                    <div class="col-2t">
                                         <div class="input-group-desc">
                                             <input class="input--style-5" type="text" name="first_name">
                                             <label class="label--desc">first name</label>
                                         </div>
                                     </div>
-                                    <div class="col-2">
+                                    <div class="col-2t">
                                         <div class="input-group-desc">
                                             <input class="input--style-5" type="text" name="last_name">
                                             <label class="label--desc">last name</label>
@@ -248,6 +337,23 @@
             </div>
         </div>
     </div>
+
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Main js -->
+    <script src="js/main.js"></script>
+    <!-- Google captcha code Js -->
+
+    <script src='../../../../www.google.com/recaptcha/api.js'></script>
+    <!-- Custom -->
+    <script src="js/custom.js"></script>
+    <!-- Style Customizer -->
+    <script src="js/style-customizer.js"></script>
 
     <!-- Jquery JS-->
     <script src="vendor/jquery/jquery.min.js"></script>
