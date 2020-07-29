@@ -1370,7 +1370,7 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
 .iq-clients-box .clients .clients-brd { border: 1px solid #f2f2f2; }
 .iq-clients-box ul li { width: 33.33%; border-left: 1px solid #f2f2f2; border-bottom: 1px solid #f2f2f2; float: left; margin: 0; padding: 15px 0; text-align: center; }
 .iq-clients-box ul li.small { width: 25%; }
-.iq-clients-box ul li:nth-child(3n) { border-righ: 1px solid #f2f2f2; }
+.iq-clients-box ul li:nth-child(3n) { border-right: 1px solid #f2f2f2; }
 
 /*---------------------------------------------------------------------
                            Subscribe Our Newsletter
