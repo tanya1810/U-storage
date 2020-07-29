@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>Book Now</title>
+    <link rel="shortcut icon" href="images/services/smg-favicon-removebg-preview.png" />
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/form.min.css" rel="stylesheet" media="all">
+
+</head>
+
+<style>
+    @media only screen and (max-width: 680px) {
+        .wrapper {
+            width: 90% !important;
+        }
+    }
+
+    @media only screen and (max-width: 380px) {
+        img {
+            width: 240px !important;
+            height: 120px !important;
+            margin-bottom: 3%;
+        }
+    }
+
+    @media only screen and (max-width: 300px) {
+        img {
+            width: 180px !important;
+            height: 90px !important;
+            margin-bottom: 3%;
+        }
+    }
+
+    .value {
+        width: 100% !important;
+    }
+
+    .name {
+        padding-bottom: 3%;
+    }
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .myButton {
+            background-color: #a70000;
+            border-radius: 28px;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-family: Arial;
+            font-size: 17px;
+            font-weight: bold;
+	        padding:16px 37px;
+            text-decoration: none;
+        }
+
+        .myButton:hover {
+            background-color: #d30303;
+            color: white;
+        }
+</style>
+
+<script>
+    function checkvalue(val) {
+        if (val === "others")
+            document.getElementById('color').style.display = 'block';
+        else
+            document.getElementById('color').style.display = 'none';
+    }
+</script>
+
+<body bgcolor="#f2f2f2">
+    <div class="page-wrapper p-t-45 p-b-50">
+        <div class="wrapper wrapper--w680" style="display: flex; justify-content: center; margin: auto;">
+            <div class="card card-5" style="border-radius: 2%;">
+                <div class="card-heading">
+                    <div style="display:flex; justify-content: center; padding: 0; margin: -30px;">
+                        <img style="height: 150px; width: 300px;" src="images/services/smg-removebg-preview.png"
+                            alt="#">
+                    </div>
+                    <h2 class="title">Refer and Earn</h2>
+                </div>
+                <div class="card-body">
+                    <h2 class="title" style="color: #494444; margin-bottom: 25px;">Your Details</h2>
+                    <form method="POST">
+                        <div class="form-row m-b-55">
+                            <div class="name">Name</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="first_name">
+                                            <label class="label--desc">first name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="last_name">
+                                            <label class="label--desc">last name</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Email</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="email" name="email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="name">Contact No.</div>
+                            <div class="value">
+                                <!-- <div class="row row-refine">
+                                    <div class="col-3">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="area_code">
+                                            <label class="label--desc">Area Code</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-9"> -->
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="text" name="phone">
+                                    <!-- <label class="label--desc">Phone Number</label> -->
+                                </div>
+                                <!-- </div> -->
+                                <!-- </div> -->
+                            </div>
+                        </div>
+
+                        <h2 class="title" style="color: #494444; margin-bottom: 25px;">Your Friend's Details</h2>
+
+                        <div class="form-row m-b-55">
+                            <div class="name">Name</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="first_name">
+                                            <label class="label--desc">first name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="last_name">
+                                            <label class="label--desc">last name</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Email</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="email" name="email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="name">Contact No.</div>
+                            <div class="value">
+                                <!-- <div class="row row-refine">
+                                    <div class="col-3">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="area_code">
+                                            <label class="label--desc">Area Code</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-9"> -->
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="text" name="phone">
+                                    <!-- <label class="label--desc">Phone Number</label> -->
+                                </div>
+                                <!-- </div> -->
+                                <!-- </div> -->
+                            </div>
+                        </div>
+
+
+                        
+                        <div>
+                            <button class="myButton" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->
